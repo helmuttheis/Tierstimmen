@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Tierstimmen.TierstimmenItemPage">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Image Grid.Column="0" Grid.Row="0" x:Name="img" Source="voegel.png" 
+                                       MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
+                                       Aspect="AspectFit" />
+            <Image Grid.Column="0" Grid.Row="1" x:Name="imgInsekten" Source="insekten.png" 
+                                       MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
+                                       Aspect="AspectFit" />
+            <Image Grid.Column="1" Grid.Row="0" x:Name="imgAmphibien" Source="amphibien.png" 
+                                       MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
+                                       Aspect="AspectFit" />
+            <Image Grid.Column="1" Grid.Row="1" x:Name="imgSaeuger" Source="saeuger.png" 
+                                       MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
+                                       Aspect="AspectFit" />
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             x:Class="Tierstimmen.TierstimmenLoadPage" Title="Load data">
+ 
+    <StackLayout Margin="20" VerticalOptions="StartAndExpand">
+		<Label Text="Url" />
+        <Entry x:Name="tbUrl" Placeholder="Die Url für die Daten"/>
+        <Label Text="Datei" />
+        <Entry x:Name="tbFilename" Placeholder="die Datei" />
+        <Label x:Name="lblStatus"  />
+        <Button Text="Load" Clicked="OnLoadClicked" />
+        <Button Text="Reset" Clicked="OnResetClicked" />
+        <Button Text="Cancel" Clicked="OnCancelClicked" />
+    </StackLayout>
+</ContentPage>

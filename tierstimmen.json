@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Rohrdommel",
+    "Ton": "rohrdommel_rufreihe.mp3",
+    "Bild": "rohrdommel_kl.jpg",
+    "Vorkommen": "",
+    "Url": ""
+  },
+  {
+    "Name": "Sperlingskauz",
+    "Ton": "sperlingskauz_gesang.mp3",
+    "Bild": "sperlingskauz_kl.jpg",
+    "Vorkommen": "",
+    "Url": ""
+  },
+  {
+    "Name": "Zwergdommel",
+    "Ton": "sperlingskauz_gesang.mp3",
+    "Bild": "zwergdommel_rufreihe.jpg",
+    "Vorkommen": "",
+    "Url": ""
+  }
+]
