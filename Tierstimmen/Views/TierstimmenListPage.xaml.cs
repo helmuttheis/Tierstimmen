@@ -78,7 +78,7 @@ namespace Tierstimmen
             Console.WriteLine("BtnPlay_Clicked");
             //if (listView.SelectedItem == null)
             {
-                Button btnThis = (Button)sender;
+                ImageButton btnThis = (ImageButton)sender;
 
                 var listItem = btnThis.BindingContext as TierstimmenItem;
                 listView.SelectedItem = listItem;
