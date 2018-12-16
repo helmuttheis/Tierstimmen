@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.106
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen", "Tierstimmen\Tierstimmen.csproj", "{5F610EA1-9E35-4870-AE9B-5E18B4B4D5B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tierstimmen", "Tierstimmen\Tierstimmen.csproj", "{5F610EA1-9E35-4870-AE9B-5E18B4B4D5B8}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Targets", "Targets", "{205F34F1-DBEC-46B8-A6E5-7C2BAB70DD0C}"
 EndProject
@@ -12,6 +12,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen.Android", "Tierstimmen.Android\Tierstimmen.Android.csproj", "{B746C87C-7335-4830-AAE2-ACACE4D69DB5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen.UWP", "Tierstimmen.UWP\Tierstimmen.UWP.csproj", "{346CF235-BDD4-4557-9BAB-4F5E4A9BD962}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E34C9BFE-7379-42C3-9085-CA57B8531AB6}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -337,5 +342,8 @@ Global
 		{1902913C-BB6F-4CCB-9B90-1D0CAEECAF12} = {205F34F1-DBEC-46B8-A6E5-7C2BAB70DD0C}
 		{B746C87C-7335-4830-AAE2-ACACE4D69DB5} = {205F34F1-DBEC-46B8-A6E5-7C2BAB70DD0C}
 		{346CF235-BDD4-4557-9BAB-4F5E4A9BD962} = {205F34F1-DBEC-46B8-A6E5-7C2BAB70DD0C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FC0355BA-1056-4EC4-B075-1D3DBBF04A30}
 	EndGlobalSection
 EndGlobal
