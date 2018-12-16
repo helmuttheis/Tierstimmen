@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using SQLite;
 
@@ -6,11 +7,13 @@ namespace Tierstimmen
 {
 	public class TierstimmenItemDatabase
 	{
-		readonly SQLiteAsyncConnection database;
+		SQLiteAsyncConnection database;
         public string szGruppe = "voegel";
+        public string szFilename;
 		public TierstimmenItemDatabase(string dbPath)
 		{
-			database = new SQLiteAsyncConnection(dbPath);
+            szFilename = dbPath;
+            database = new SQLiteAsyncConnection(dbPath);
            
             database.CreateTableAsync<TierstimmenItem>().Wait();
             database.CreateTableAsync<TierstimmenGroup>().Wait();
@@ -28,6 +31,19 @@ namespace Tierstimmen
             }
             database.CreateTableAsync<TierstimmenItem>().Wait();
             database.CreateTableAsync<TierstimmenGroup>().Wait();
+        }
+        public async Task Close()
+        {
+            await database.CloseAsync();
+            SQLiteAsyncConnection.ResetPool();
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+        }
+        public async Task Reopen()
+        {
+            database = new SQLiteAsyncConnection(this.szFilename);
+            await database.CreateTableAsync<TierstimmenItem>();
+            await database.CreateTableAsync<TierstimmenGroup>();
         }
         public Task<List<TierstimmenItem>> GetItemsAsync()
 		{

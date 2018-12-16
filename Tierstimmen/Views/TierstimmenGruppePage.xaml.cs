@@ -46,7 +46,7 @@ namespace Tierstimmen
         {
             await Navigation.PushAsync(new TierstimmenLoadPage
             {
-                BindingContext = new TierstimmenItem()
+                // BindingContext = new TierstimmenItem()
             });
         }
     }

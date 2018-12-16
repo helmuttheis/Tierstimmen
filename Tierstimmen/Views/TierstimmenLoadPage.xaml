@@ -5,9 +5,9 @@
  
     <StackLayout Margin="20" VerticalOptions="StartAndExpand">
 		<Label Text="Url" />
-        <Entry x:Name="tbUrl" Placeholder="Die Url für die Daten"/>
+        <Entry x:Name="tbUrl" Placeholder="Die Url für die Daten" Text="{Binding Url}"/>
         <Label Text="Datei" />
-        <Entry x:Name="tbFilename" Placeholder="die Datei" />
+        <Entry x:Name="tbFilename" Placeholder="Die Datei (JSON oder DB3)"  Text="{Binding Filename}"/>
         <Label x:Name="lblStatus"  />
         <Button Text="Load" Clicked="OnLoadClicked" />
         <Button Text="Reset" Clicked="OnResetClicked" />

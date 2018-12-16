@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.IO;
 using System.Net.Http;
 using System.Runtime.CompilerServices;
 using Xamarin.Forms;
@@ -15,9 +16,13 @@ namespace Tierstimmen
 		{
            
             InitializeComponent();
+            this.BindingContext = bindingData;
+           // tbFilename.Text = bindingData.Filename;
+           // tbUrl.Text = bindingData.Url;
+
         }
 
-		async void OnLoadClicked(object sender, EventArgs e)
+        async void OnLoadClicked(object sender, EventArgs e)
 		{
             bindingData.Url = tbUrl.Text.Trim();
             bindingData.Filename = tbFilename.Text.Trim();
@@ -27,83 +32,111 @@ namespace Tierstimmen
                 bindingData.Url += "/";
             }
             SetStatus("verbinde mit " + bindingData.Url);
-            string szJson = "";
-            try
+            if (bindingData.Filename.EndsWith(".JSON", StringComparison.InvariantCultureIgnoreCase))
             {
-                szJson = await httpClient.GetStringAsync(bindingData.Url + bindingData.Filename);
+                string szJson = "";
+                try
+                {
+                    szJson = await httpClient.GetStringAsync(bindingData.Url + bindingData.Filename);
 
+                }
+                catch (Exception ex)
+                {
+                    SetStatus("ERROR: " + ex.ToString());
+                }
+
+                SetStatus(szJson.Substring(0, 80));
+
+                var ret = Newtonsoft.Json.Linq.JObject.Parse(szJson);
+                JArray data = (JArray)ret.SelectToken("$.Data");
+                bool bUseSelected = false;
+                int iCnt = data.Count;
+                int iNr = 0;
+                foreach (var item in data)
+                {
+                    iNr++;
+                    TierstimmenItem tsItem = new TierstimmenItem();
+                    Boolean bFehler = false;
+                    foreach (JProperty property in item)
+                    {
+
+                        if (property.Name.Equals("Name", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            tsItem.Name = property.Value.ToString();
+
+                            SetStatus(iNr.ToString() + " - " + iCnt.ToString() + " " + tsItem.Name);
+                        }
+                        else if (property.Name.Equals("Beschreibung", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            tsItem.Beschreibung = property.Value.ToString();
+                        }
+                        else if (property.Name.Equals("Gruppe", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            tsItem.Gruppe = property.Value.ToString();
+                        }
+                        else if (property.Name.Equals("Ton", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            string tonUrl = property.Value.ToString();
+                            try
+                            {
+                                tsItem.Ton = await httpClient.GetByteArrayAsync(bindingData.Url + tonUrl);
+                            }
+                            catch (Exception)
+                            {
+                                bFehler = true;
+                            }
+                        }
+                        if (property.Name.Equals("Bild", StringComparison.InvariantCultureIgnoreCase))
+                        {
+                            string bildUrl = property.Value.ToString();
+                            try
+                            {
+                                tsItem.Bild = await httpClient.GetByteArrayAsync(bindingData.Url + bildUrl);
+                            }
+                            catch (Exception)
+                            {
+                                bFehler = true;
+                            }
+                        }
+
+                    }
+                    tsItem.Selected = bUseSelected;
+                    bUseSelected = !bUseSelected;
+                    if (!bFehler)
+                    {
+                        await App.Database.SaveItemAsync(tsItem);
+                    }
+                    else
+                    {
+                        // log error?
+                    }
+                }
             }
-            catch (Exception ex)
+            else if (bindingData.Filename.EndsWith(".DB3", StringComparison.InvariantCultureIgnoreCase))
             {
-
-                throw;
-            }
-
-            SetStatus(szJson.Substring(0, 80));
-
-            var ret = Newtonsoft.Json.Linq.JObject.Parse(szJson);
-            JArray data = (JArray)ret.SelectToken("$.Data");
-            bool bUseSelected = false;
-            int iCnt = data.Count;
-            int iNr = 0;
-            foreach (var item in data)
-            {
-                iNr++;
-                TierstimmenItem tsItem = new TierstimmenItem();
-                Boolean bFehler = false;
-                foreach (JProperty property in item)
+                // TierstimmenSQLite.db3
+                // App.Database.szFilename
+                await App.Database.Close();
+                try
                 {
-                    
-                    if(property.Name.Equals("Name",StringComparison.InvariantCultureIgnoreCase))
+                    Stream strm = await httpClient.GetStreamAsync(bindingData.Url + bindingData.Filename);
+                    if( strm != null)
                     {
-                        tsItem.Name = property.Value.ToString();
-
-                        SetStatus(iNr.ToString() + " - " + iCnt.ToString() + " " + tsItem.Name);
+                        FileStream fileStream = new FileStream(App.Database.szFilename, 
+                            FileMode.Create, FileAccess.Write, FileShare.None);
+                        
+                        await  strm.CopyToAsync(fileStream).ContinueWith(
+                            (copyTask) =>
+                            {
+                                fileStream.Close();
+                            });
                     }
-                    else  if (property.Name.Equals("Beschreibung", StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        tsItem.Beschreibung = property.Value.ToString();
-                    }
-                    else if (property.Name.Equals("Gruppe", StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        tsItem.Gruppe = property.Value.ToString();
-                    }
-                    else if (property.Name.Equals("Ton", StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        string tonUrl = property.Value.ToString();
-                        try
-                        {
-                            tsItem.Ton = await httpClient.GetByteArrayAsync(bindingData.Url + tonUrl);
-                        }
-                        catch (Exception)
-                        {
-                            bFehler = true;
-                        }
-                    }
-                    if (property.Name.Equals("Bild", StringComparison.InvariantCultureIgnoreCase))
-                    {
-                        string bildUrl = property.Value.ToString();
-                        try
-                        {
-                            tsItem.Bild = await httpClient.GetByteArrayAsync(bindingData.Url + bildUrl);
-                        }
-                        catch (Exception)
-                        {
-                            bFehler = true;
-                        }
-                    }
-                   
                 }
-                tsItem.Selected = bUseSelected;
-                bUseSelected = !bUseSelected;
-                if (!bFehler)
+                catch (Exception ex)
                 {
-                    await App.Database.SaveItemAsync(tsItem);
+                    SetStatus("ERROR: " + ex.ToString());
                 }
-                else
-                {
-                    // log error?
-                }
+                await App.Database.Reopen();
             }
         }
 
@@ -132,7 +165,7 @@ namespace Tierstimmen
     public class MyBindingData: INotifyPropertyChanged
     {
         public string Url { get; set; } = "http://surfacehelle:1337/unc/surfacehelle/ddrive/tmp/tierstimmen"; //"http://192.168.43.48:1337/unc/surfacehelle/ddrive/tmp/tierstimmen";
-        public string Filename { get; set; } = "tsall.json";
+        public string Filename { get; set; } = "tsall.json";//"TierstimmenSQLite.db3";
         public string Status { get; set; } = "status";
 
         public event PropertyChangedEventHandler PropertyChanged;
