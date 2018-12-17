@@ -22,11 +22,13 @@ namespace Tierstimmen
         
         public TierstimmenListPage(TSGRUPPE tsgruppe)
 		{
+            ByteArrayToImageSourceConverter.Reset();
             this.tsgruppe = tsgruppe;
             App.Database.szGruppe = tsgruppe.ToString().ToLower();
-			InitializeComponent();
-            this.Title += " " + App.Database.szGruppe.Substring(0, 1).ToUpper() + App.Database.szGruppe.Substring(1).ToLower();
 
+			InitializeComponent();
+
+            this.Title += " " + App.Database.szGruppe.Substring(0, 1).ToUpper() + App.Database.szGruppe.Substring(1).ToLower();
         }
         private async void TapImage_Tapped(object sender, EventArgs e)
         {

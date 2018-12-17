@@ -9,6 +9,10 @@ namespace Tierstimmen
     public class ByteArrayToImageSourceConverter : IValueConverter
     {
         static Dictionary<string, ImageSource> dictImageStreams = new Dictionary<string, ImageSource>();
+        public static void Reset()
+        {
+            dictImageStreams = new Dictionary<string, ImageSource>();
+        }
         public object Convert(object value, Type targetType, object parameter, System.Globalization.CultureInfo culture)
         {
             ImageSource retSource = null;

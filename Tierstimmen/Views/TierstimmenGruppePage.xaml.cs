@@ -42,6 +42,7 @@ namespace Tierstimmen
             imgInsekten.GestureRecognizers.Add(tapGestureRecognizer);
 
         }
+         
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TierstimmenLoadPage
