@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen.iOS", "Tierstimmen.iOS\Tierstimmen.iOS.csproj", "{1902913C-BB6F-4CCB-9B90-1D0CAEECAF12}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen.Android", "Tierstimmen.Android\Tierstimmen.Android.csproj", "{B746C87C-7335-4830-AAE2-ACACE4D69DB5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5F610EA1-9E35-4870-AE9B-5E18B4B4D5B8} = {5F610EA1-9E35-4870-AE9B-5E18B4B4D5B8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tierstimmen.UWP", "Tierstimmen.UWP\Tierstimmen.UWP.csproj", "{346CF235-BDD4-4557-9BAB-4F5E4A9BD962}"
 EndProject

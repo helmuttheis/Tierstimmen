@@ -121,7 +121,6 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TextToSpeech_UWP.cs" />
   </ItemGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
@@ -131,7 +130,7 @@
   <ItemGroup>
     <Content Include="amphibien.png" />
     <Content Include="insekten.png" />
-    <Content Include="play-solid.png" />
+    <Content Include="playsolid.png" />
     <Content Include="plus.png" />
     <Content Include="check.png" />
     <Content Include="Properties\Default.rd.xml" />
@@ -143,7 +142,7 @@
     <Content Include="Assets\StoreLogo.png" />
     <Content Include="Assets\Wide310x150Logo.scale-200.png" />
     <Content Include="saeuger.png" />
-    <Content Include="stop-solid.png" />
+    <Content Include="stopsolid.png" />
     <Content Include="voegel.png" />
   </ItemGroup>
   <ItemGroup>

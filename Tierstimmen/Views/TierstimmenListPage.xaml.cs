@@ -31,7 +31,7 @@ namespace Tierstimmen
         private async void TapImage_Tapped(object sender, EventArgs e)
         {
             Image img = (Image)sender;
-            await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
+           // await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
         }
         private async void SearchBar_OnTextChanged(object sender, TextChangedEventArgs e)
         {
