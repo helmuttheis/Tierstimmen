@@ -24,15 +24,19 @@
             <Image Grid.Column="0" Grid.Row="0" x:Name="imgVoegel" Source="voegel.png" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
                                        Aspect="AspectFit" />
+            <Label Grid.Column="0" Grid.Row="0" x:Name="lblVoegelCnt" Text="0" HorizontalOptions="Center"/>
             <Image Grid.Column="0" Grid.Row="1" x:Name="imgInsekten" Source="insekten.png" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
                                        Aspect="AspectFit" />
+            <Label Grid.Column="0" Grid.Row="1" x:Name="lblInsektenCnt" Text="0" HorizontalOptions="Center"/>
             <Image Grid.Column="1" Grid.Row="0" x:Name="imgAmphibien" Source="amphibien.png" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
                                        Aspect="AspectFit" />
+            <Label Grid.Column="1" Grid.Row="0" x:Name="lblAmphibienCnt" Text="0" HorizontalOptions="Center"/>
             <Image Grid.Column="1" Grid.Row="1" x:Name="imgSaeuger" Source="saeuger.png" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
                                        Aspect="AspectFit" />
+            <Label Grid.Column="1" Grid.Row="1" x:Name="lblSaeugerCnt" Text="0" HorizontalOptions="Center"/>
         </Grid>
     </ContentPage.Content>
 </ContentPage>
