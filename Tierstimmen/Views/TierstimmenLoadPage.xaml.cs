@@ -49,7 +49,7 @@ namespace Tierstimmen
 
                 var ret = Newtonsoft.Json.Linq.JObject.Parse(szJson);
                 JArray data = (JArray)ret.SelectToken("$.Data");
-                bool bUseSelected = false;
+
                 int iCnt = data.Count;
                 int iNr = 0;
                 foreach (var item in data)
@@ -100,8 +100,8 @@ namespace Tierstimmen
                         }
 
                     }
-                    tsItem.Selected = bUseSelected;
-                    bUseSelected = !bUseSelected;
+                    tsItem.Selected = false;
+                    
                     if (!bFehler)
                     {
                         await App.Database.SaveItemAsync(tsItem);
@@ -164,7 +164,7 @@ namespace Tierstimmen
     }
     public class MyBindingData: INotifyPropertyChanged
     {
-        public string Url { get; set; } = "http://surfacehelle:1337/unc/surfacehelle/ddrive/tmp/tierstimmen"; //"http://192.168.43.48:1337/unc/surfacehelle/ddrive/tmp/tierstimmen";
+        public string Url { get; set; } = "http://192.168.43.48:1337/unc/surfacehelle/ddrive/tmp/tierstimmen"; //"http://192.168.43.48:1337/unc/surfacehelle/ddrive/tmp/tierstimmen";
         public string Filename { get; set; } = "tsall.json";//"TierstimmenSQLite.db3";
         public string Status { get; set; } = "status";
 

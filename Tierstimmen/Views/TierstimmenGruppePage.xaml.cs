@@ -47,21 +47,28 @@ namespace Tierstimmen
             var gcList = await App.Database.GetCountByGroupAsync();
             foreach(var kv in gcList)
             {
-                if( kv.szGroup.Equals(TSGRUPPE.VOEGEL.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                try
                 {
-                    lblVoegelCnt.Text = kv.iCount.ToString();
+                    if (kv.szGroup.Equals(TSGRUPPE.VOEGEL.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblVoegelCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.AMPHIBIEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblAmphibienCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.SAEUGER.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblSaeugerCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.INSEKTEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblInsektenCnt.Text = kv.iCount.ToString();
+                    }
                 }
-                else if (kv.szGroup.Equals(TSGRUPPE.AMPHIBIEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                catch (Exception)
                 {
-                    lblAmphibienCnt.Text = kv.iCount.ToString();
-                }
-                else if (kv.szGroup.Equals(TSGRUPPE.SAEUGER.ToString(), StringComparison.InvariantCultureIgnoreCase))
-                {
-                    lblSaeugerCnt.Text = kv.iCount.ToString();
-                }
-                else if (kv.szGroup.Equals(TSGRUPPE.INSEKTEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
-                {
-                    lblInsektenCnt.Text = kv.iCount.ToString();
+                    
                 }
             }
         }
