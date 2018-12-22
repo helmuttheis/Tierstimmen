@@ -1,0 +1,2162 @@
+{ "Data": [
+
+{
+"Name":"Erdkröte (Bufo bufo)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Heute wird man mit Kröten meist im Frühjahr konfrontiert, wenn sich die Tiere aus ihren Winterquartieren zu den Laichgewässern begeben und dabei auch Straßen überqueren müssen. In der Regel kommen die Männchen vor dem Weibchen im Gewässer an. Mit ihren Rufen markieren sie im Gewässer ihr Revier."
+,"Bild":"images/erdkroete_kl.jpg"
+,"Ton":"audio/erdkroete_paarungsrufe.mp3"
+}
+,
+{
+"Name":"Geburtshelferkröte (Alytes obstetricans)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Die glockenähnlichen Laute der Geburtshelferkröte sind nur im Frühjahr zur Paarungszeit zu hören. Ihren Namen verdankt diese seltene einheimische Art dem Umstand, dass nach der am Land erfolgten Paarung die befruchteten Eier in Laichschnüren am Hinterleib des Männchens befestigt werden. Dieses trägt die Eier zunächst einige Tage mit sich umher, um sie dann später in einem Gewässer abzulegen."
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/geburtshelferkroete_rufe.mp3"
+}
+,
+{
+"Name":"Grasfrosch (Rana temporaria)"
+,"Gruppe":"amphibien"
+,"Beschreibung":""
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/grasfrosch_paarungsrufe.mp3"
+}
+,
+{
+"Name":"Knoblauchkröte (Pelobates fuscus)"
+,"Gruppe":"amphibien"
+,"Beschreibung":""
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/knoblauchkroete_paar.mp3"
+}
+,
+{
+"Name":"Europäischer Laubfrosch (Hyla arborea)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Der Europäische Laubfrosch ist der einzige einheimische Vertreter der weltweit verbreiteten und artenreichsten Amphibiengattung Echte Laubfrösche. Seine zu Haftorganen umgebildeten Finger- und Zehenspitzen erlauben es ihm auch in höhere Vegetation zu klettern, von wo aus auch seine Rufe zu hören sind."
+,"Bild":"images/laubfrosch.jpg"
+,"Ton":"audio/laubfrosch_gruppenrufe.mp3"
+}
+,
+{
+"Name":"Moorfrosch (Rana arvalis)"
+,"Gruppe":"amphibien"
+,"Beschreibung":""
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/moorfrosch_rufreihe.mp3"
+}
+,
+{
+"Name":"Rotbauchunke (Bombina bombina)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Die Rotbauchunke gehört zu den am meisten gefährdetsten Amphibien in Mitteleuropa. In Deutschland kommt sie nur im Nordosten vor, wo im Frühjahr an den Laichgewässern ihre glockenartigen Rufe zu vernehmen sind. Rotbauchunken bevorzugen besonnte Flachgewässer und Kleingewässer in der Ackerlandschaft."
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/rotbauchunke_paarungsrufe.mp3"
+}
+,
+{
+"Name":"Seefrosch (Rana ridibunda)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Der Seefrosch ist die größte einheimische Froschart. Gemeinsam mit Teichfrosch und Wasserfrosch gehört er zu den Grünfröschen. Dabei ist der Teichfrosch keine eigentliche Art, sondern nur ein fortpflanzungsfähiges Hybrid zwischen Seefrosch und Wasserfrosch. Ein charakteristisches Merkmal der Grünfrösche sind die paarigen Schallblasen, die in der Nähe der Mundwinkel hervortreten."
+,"Bild":"images/seefrosch_kl.jpg"
+,"Ton":"audio/seefrosch_diverse_laute.mp3"
+}
+,
+{
+"Name":"Teichfrosch (Rana esculenta)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Der Teichfrosch ist keine eigentliche Froschart, sondern ein Hybrid aus Kleinem Wasserfrosch und Seefrosch. Im Gegensatz zu den meisten Hybriden in der Natur, sind diese Formen fortpflanzungsfähig. Es gibt ganze Populationen, die nur aus Teichfröschen bestehen."
+,"Bild":"images/teichfrosch2_kl.jpg"
+,"Ton":"audio/teichfrosch_paarungsrufe.mp3"
+}
+,
+{
+"Name":"Kleiner Wasserfrosch (Rana lessonae)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Der kleine Wasserfrosch ist unsere kleinste Grünfroschart. Charakteristisch f�r Grünfrösche sind die beiden hinter den Mundwinkeln hervortretenden Schallblasen. Diese Schallblasen wirken als Resonator und verstärken die im Kehlkopf erzeugten Laute."
+,"Bild":"platzhalter_amphibien.png"
+,"Ton":"audio/wasserfrosch_paarungsrufe.mp3"
+}
+,
+{
+"Name":"Wechselkröte (Bufo viridis)"
+,"Gruppe":"amphibien"
+,"Beschreibung":"Die Wechselkröte ist eine Amphibienart, die sich hervorragend an das Leben in trockenen Gebieten angepasst hat. Die Tiere sind nachtaktiv und graben sich tagsüber im lockeren Boden ein. Gewässer werden nur zur Laichablage genutzt. In Deutschland ist die Art vor allem an Ruderalstandorten, in trockenem Brachland auf Feldern und in Abgrabungsflächen, wie z.B. Sandgruben anzutreffen."
+,"Bild":"images/wechselkroete_kl.jpg"
+,"Ton":"audio/wechselkroete_chor.mp3"
+}
+,
+{
+"Name":"Alpenbock (Rosalia alpina)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/alpenbock_stridulation.mp3"
+}
+,
+{
+"Name":"Brauner Grashüpfer (Chorthippus brunneus)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/brauner_grashuepfer_stridulation.mp3"
+}
+,
+{
+"Name":"Eichenbock (Cerambyx cerdo)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/eichbock_stridulation.mp3"
+}
+,
+{
+"Name":"Eschenzikade (Cicada orni)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/eschenzikade1_kl.jpg"
+,"Ton":"audio/eschenzikade_gesang.mp3"
+}
+,
+{
+"Name":"Feldgrille (Gryllus campestris)"
+,"Gruppe":"insekten"
+,"Beschreibung":"Im Frühjahr kann man in Gegenden mit sandigem Boden den Gesang der Feldgrillen vernehmen. Dabei singen die männlichen Tiere vor dem Eingang ihrer selbst gegrabenen Höhlen. Der Gesang dient dem Anlocken von paarungswilligen Weibchen. Das Zirpen wird dadurch erzeugt, dass die Kante eines Flügels �ber eine gezähnte Leiste am anderen Flügel gezogen wird."
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/feldgrille_gesang.mp3"
+}
+,
+{
+"Name":"Frühlingsmistkäfer (Geotrupes vernalis)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/fruehlingsmistkaefer_kl.jpg"
+,"Ton":"audio/fruehlingsmistkaefer_stridulation.mp3"
+}
+,
+{
+"Name":"Gemeiner Grashüpfer (Chorthippus parallelus)"
+,"Gruppe":"insekten"
+,"Beschreibung":"Die Geräuschkulisse auf Wiesen und Feldern wird im Sommer im wesentlichen durch den Gesang der Heuschrecken bestimmt. Die zu den Kurzfühlerheuschrecken zählenden Grashüpfer erzeugen ihren Gesang, indem sie mit einer gezähnten Leiste am Hinterschenkel �ber eine Flügelkante streichen."
+,"Bild":"images/grashuepfer2_kl.jpg"
+,"Ton":"audio/grashuepfer_sonnengesang.mp3"
+}
+,
+{
+"Name":"Heimchen (Acheta domestica)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/heimchen_stridulation.mp3"
+}
+,
+{
+"Name":"Großes Heupferd (Tettigonia viridissima)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/grosses_heupferd_gesang.mp3"
+}
+,
+{
+"Name":"Hornisse (Vespa crabro)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/hornisse_kl.jpg"
+,"Ton":"audio/hornisse_holznagen.mp3"
+}
+,
+{
+"Name":"Hummel (Bombus spec.)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/hummel_kl.jpg"
+,"Ton":"audio/hummel_fluggeraeusche.mp3"
+}
+,
+{
+"Name":"Lilienh�hnchen (Lilioceris lilii)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/lilienhaehnchen_kl.jpg"
+,"Ton":"audio/lilienhaehnchen.mp3"
+}
+,
+{
+"Name":"Maulwurfsgrille (Gryllotalpa gryllotalpa)"
+,"Gruppe":"insekten"
+,"Beschreibung":"Die auffälligste Besonderheit der Maulwurfsgrillen sind ihre zu Grabschaufeln umgewandelten Vorderbeine. Tagsüber halten sich die Tiere meist in selbstgegrabenen Höhlengängen auf, die wenige Zentimeter unter der Grasnarbe liegen. Als Pflanzenfresser können die Tiere insbesondere in Kohlkulturen gro�en Schaden anrichten."
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/maulwurfsgrille_gesang.mp3"
+}
+,
+{
+"Name":"Nachtigallgrashüpfer (Chorthippus biguttulus)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/nachtigallgrashuepfer_gesang.mp3"
+}
+,
+{
+"Name":"Blauflügelige Ödlandschrecke (Oedipoda caerulescens)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/blauflueglige_oedlandschrecke.mp3"
+}
+,
+{
+"Name":"Roesels Beißschrecke (Metrioptera roeseli)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/roesels_beisschrecke.jpg"
+,"Ton":"audio/roesels_beissschrecke_stridulation.mp3"
+}
+,
+{
+"Name":"Schwebfliege"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/schwebfliege_kl.jpg"
+,"Ton":"audio/schwebfliege_fluggeraeusche.mp3"
+}
+,
+{
+"Name":"Stubenfliege (Musca domestica)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/fliege_kl.jpg"
+,"Ton":"audio/fliegen_fluggeraeusche.mp3"
+}
+,
+{
+"Name":"Sumpfgrashüpfer (Chorthippus montanus)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/sumpfgrashuepfer_gesang.mp3"
+}
+,
+{
+"Name":"Waldgrille (Nemobius sylvestris)"
+,"Gruppe":"insekten"
+,"Beschreibung":"Die Waldgrille ist im südlichen Teil Deutschlands häufig anzutreffen. Sie bewohnt sonnige Waldränder, Waldlichtungen und gebüschreiche Trockenrasen. Der Gesang ist ab Juni zu hören und wird durch das Aneinanderreiben der Vorderflügel erzeugt."
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/waldgrille_gesang.mp3"
+}
+,
+{
+"Name":"Waldmistkäfer (Geotrupes stercorosus)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/waldmistkaefer_stridulation.mp3"
+}
+,
+{
+"Name":"Weinhähnchen (Oecanthus pellucens)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/weinhaehnchen_gesang.mp3"
+}
+,
+{
+"Name":"Wespenbock (Clytus arietis)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"images/wespenbock_kl.jpg"
+,"Ton":"audio/wespenbock_stridulation.mp3"
+}
+,
+{
+"Name":"Wolfsspinne (Hygrolycosa rubrofasciata)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/wolfsspinne_trommeln.mp3"
+}
+,
+{
+"Name":"Zwitscherheupferd (Tettigonia cantans)"
+,"Gruppe":"insekten"
+,"Beschreibung":""
+,"Bild":"platzhalter_insekten.png"
+,"Ton":"audio/zwitscherheupferd_stridulation.mp3"
+}
+,
+{
+"Name":"Abendsegler (Nyctalus noctula)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/abendsegler_ortungslaute.mp3"
+}
+,
+{
+"Name":"Alpenmurmeltier (Marmota marmota)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/alpenmurmeltier3_kl.jpg"
+,"Ton":"audio/alpenmurmeltier_rufe_kurz.mp3"
+}
+,
+{
+"Name":"Alpensteinbock (Capra ibex)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/alpensteinbock_kl.jpg"
+,"Ton":"audio/alpensteinbock_weibchen_kurzlaute.mp3"
+}
+,
+{
+"Name":"Baummarder (Martes martes)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/baummarder6_kl.jpg"
+,"Ton":"audio/baummarder_begegnungslaute.mp3"
+}
+,
+{
+"Name":"Biber (Castor fiber)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Biber ist eines der größten Nagetiere. Als semiaquatisches Säugetier siedelt er in größeren unterholzreichen Auwäldern entlang der dicht bewachsenen Ufer von Bächen, Flüssen und Seen. Biber sind monogam und leben im Familienverband, welcher das Elternpaar und zwei Generationen von Jungtieren umfasst. Das Revier enthält meist zwei bis vier Wohnbaue unterschiedlichster Form, deren Zugänge stets unter Wasser liegen. Um ein Trockenfallen zu verhindern, errichten Biber zusätzlich Dämme, mit denen sie den Wasserstand regulieren können."
+,"Bild":"images/biber_kl.jpg"
+,"Ton":"audio/biber_kontaktlaute.mp3"
+}
+,
+{
+"Name":"Damhirsch (Dama dama)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Damhirsch kam vor der letzten Eiszeit in Europa flächendeckend vor und wurde später nach Kleinasien verdrängt. Im 19. Jahrhundert wurde er bei uns als Jagdwild eingebürgert. Die Brunft erfolgt im Vergleich zum Rothirsch eher unauffällig."
+,"Bild":"images/damhirsch_kl.jpg"
+,"Ton":"audio/damhirsch_maennchen.mp3"
+}
+,
+{
+"Name":"Gemeines Eichhörnchen (Sciurus vulgaris)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Eichhörnchen sind eher zu sehen als zu hören. Bei Erregung, insbesondere bei Streitigkeiten mit Artgenossen, äußern die Tiere aus kurzen Lauten bestehende Rufreihen. Eichhörnchen sind f�r ihre Vorratswirtschaft bekannt und auch dafür, dass sie sich nicht merken, wo sie ihre Nahrungsvorräte versteckt haben."
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/eichhoernchen_kontaktlaute.mp3"
+}
+,
+{
+"Name":"Erdmaus (Microtus agrestis)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/erdmaus_abwehrlaute.mp3"
+}
+,
+{
+"Name":"Feldhase (Lepus europaeus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Feldhase ist ein typischer Bewohner offener Landschaften und Wälder. Er hat sehr lange Ohren (Löffel) mit den charakteristischen schwarz-weißen Spitzen. Seine langen Hinterbeine helfen ihm auf der Flucht vor seinen Feinden, zu denen Marder, Fuchs und Greifvögel gehören. Mit Geschwindigkeiten bis �ber 50 km/h und hohen Sprüngen bis zu 3 m Höhe vermag er Haken schlagend vielen seiner Feinde zu entkommen. Er ist nachtaktiv und verbringt den Großteil des Tages in einer Mulde, der sogenannten Sasse."
+,"Bild":"images/feldhase_kl.jpg"
+,"Ton":"audio/feldhase_laute.mp3"
+}
+,
+{
+"Name":"Fischotter (Lutra lutra)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Fischotter hat ein besonderes Fell, das verhindert, dass er bis auf die Haut nass wird und schützt ihn so nicht nur vor Wasser, sondern auch vor Kälte. Weil das Fell f�r ihn so wichtig ist, verbringt er viel Zeit am Tag damit, es zu pflegen. Mit seinem langen Schwanz und den Schwimmhäuten zwischen den Zehen ist er ein flinker und geschickter Schwimmer. Aber Fischotter machen lieber jagt auf leichte Beute und schnappen sich alles, was zu langsam vorbeikommt, seien es nun Fische, Frösche, Krebse, Mäuse, Insekten oder kleine Wasservögel. Die Beute wird dann aber lieber in Ruhe an Land verspeist. Fischotter bauen am Uferrand Höhlen, in denen sie ihren Nachwuchs zur Welt bringen. Der Eingang zur Höhle liegt immer unter Wasser, während sich die Höhle selber vor Hochwasser geschützt über dem Wasserspiegel befindet."
+,"Bild":"images/fischotter_kl.jpg"
+,"Ton":"audio/fischotter_rufe_alttier.mp3"
+}
+,
+{
+"Name":"Rotfuchs (Vulpes vulpes)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Rotfüchse gehören zu den Arten, die sich sehr gut an die menschliche Zivilisation angepasst haben und heute sogar oft in Städten anzutreffen sind. Ihre Stimme ist relativ selten zu hören. Mit einer Bellstrophe stellen sie während der Paarungszeit Kontakt zum Partner oder während der Jungenaufzucht zu den Welpen her."
+,"Bild":"images/fuchs_kl.jpg"
+,"Ton":"audio/rotfuchs_ruede.mp3"
+}
+,
+{
+"Name":"Gämse (Rupicapra rupicapra)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/gemse_kl.jpg"
+,"Ton":"audio/gemse_bock_meckern.mp3"
+}
+,
+{
+"Name":"Kleine Haselmaus (Muscardinus avellanarius)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/haselmaus_abwehrlaute.mp3"
+}
+,
+{
+"Name":"Europäischer Igel (Erinaceus europaeus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Igel ist der einzige Insektenfresser, der wie Siebenschläfer, Feldhamster oder Murmeltier Winterschlaf hält. An Lautäußerungen hört man am häufigsten ein Schnaufen oder Keckern. Die Funktion der selteneren Rufreihen ist bisher noch nicht bekannt."
+,"Bild":"images/igel2_kl.jpg"
+,"Ton":"audio/igel_rufreihe.mp3"
+}
+,
+{
+"Name":"Iltis (Mustela putorius)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/iltis_jungtiere.mp3"
+}
+,
+{
+"Name":"Kegelrobbe (Halichoerus grypus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Kegelrobben kann man praktisch an allen Küsten Nord- und Westeuropas zumindest gelegentlich beobachten. Wurfplätze befinden sich an den Küsten Islands, der Färöer-Inseln, Englands, Irlands, Norwegens und in der Ostsee. Während der Paarungszeit kurz nach der Geburt der Jungen bilden die Männchen Haremsverbände mit 6-7 Weibchen."
+,"Bild":"images/kegelrobbe2_kl.jpg"
+,"Ton":"audio/kegelrobbe_weibchen.mp3"
+}
+,
+{
+"Name":"Europäischer Luchs (Lynx lynx)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Luchs war ursprünglich in allen größeren Waldgebieten Europas, Mittelasiens und Nordamerikas anzutreffen. Das typische Merkmal dieser Katzenart sind die auffallenden Ohrpüschel. Die charakteristische Rufreihe ist nur während der Paarungszeit zu hören."
+,"Bild":"images/luchs_kl.jpg"
+,"Ton":"audio/luchs_kater_fauchen.mp3"
+}
+,
+{
+"Name":"Marderhund (Nyctereutes procyonoides)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/marderhund_kl.jpg"
+,"Ton":"audio/marderhund_langlaute.mp3"
+}
+,
+{
+"Name":"Europäischer Maulwurf (Talpa europaea)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/maulwurf_kl.jpg"
+,"Ton":"audio/maulwurf_laute.mp3"
+}
+,
+{
+"Name":"Mufflon (Ovis ammon)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Das Mufflon ist eine Unterart des Wildschafes, dessen natürliches Verbreitungsgebiet Gebirgsregionen auf Sardinien, Korsika und Zypern umfasst. In weiten Teilen Mitteleuropas wurden sie als Jagdwild ausgesetzt. Erwachsene Männchen und Weibchen mit Jungtieren bilden getrennte Herden."
+,"Bild":"images/mufflon2_kl.jpg"
+,"Ton":"audio/mufflon_weibchen.mp3"
+}
+,
+{
+"Name":"Europäisches Reh (Capreolus capreolus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/reh20_kl.jpg"
+,"Ton":"audio/reh_schrecken.mp3"
+}
+,
+{
+"Name":"Mitteleuropäische Rötelmaus (Myodes glareolus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/roetelmaus1_kl.jpg"
+,"Ton":"audio/roetelmaus_lautfolgen.mp3"
+}
+,
+{
+"Name":"Rothirsch (Cervus elaphus elaphus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Rothirsche besiedeln die Waldgebiete der nördlichen Halbkugel. Ihre Stimme lassen die männlichen Tiere ausschließlich während der Paarungszeit im Spätsommer/Frühherbst ertönen. Anhand der Stimme kann über die geographische Herkunft und auch die Stärke des Tieres geurteilt werden."
+,"Bild":"images/rothirsch_kl.jpg"
+,"Ton":"audio/rothirsch_brunft.mp3"
+}
+,
+{
+"Name":"Seehund (Phoca vitulina)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Der Seehund ist eine in allen nördlich-gemäßigten Meeren verbreitete Robbe. Er hält sich gern im seichten Wasser an sandigen Küsten mit trockenfallenden Sandbänken auf, wo er vor Feinden sicher ist. Man findet ihn aber auch an geschützten Felsküsten und nicht selten in Flüssen und Seen, die oft weit von der Meeresküste entfernt sind. Seehunde sind gute Schwimmer, sie können bis zu 200 m tief und 30 Minuten lang tauchen und ernähren sich überwiegend von den verschiedensten Küstenfischen."
+,"Bild":"images/seehund8_kl.jpg"
+,"Ton":"audio/seehund_lautfolgen.mp3"
+}
+,
+{
+"Name":"Siebenschläfer (Glis glis)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/siebenschlaefer_kl.jpg"
+,"Ton":"audio/siebenschlaefer_rufe.mp3"
+}
+,
+{
+"Name":"Steinmarder (Martes foina)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/steinmarder_paarung.mp3"
+}
+,
+{
+"Name":"Waldspitzmaus (Sorex araneus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/waldspitzmaus_rufe.mp3"
+}
+,
+{
+"Name":"Wanderratte (Rattus norvegicus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Die Wanderratte ist nicht mit der Hausratte (Rattus rattus) zu verwechseln. Diese ist nämlich kleiner als die Wanderratte, hat dafür aber größere Augen, Ohren und einen längeren Schwanz. Das Fell der Wanderratte hat meist eine graubraune Färbung auf der Oberseite und ist auf der Unterseite grau bis schmutzigweiß. Die Wanderratte mag feuchte und dunkle Umgebungen und hält sich gerne in Wassernähe auf. Sie kann nicht nur gut schwimmen und tauchen, sondern ist auch sehr anpassungsfähig. So lebt sie heute beispielsweise in hoher Zahl in den Abwasserkanälen von großen Städten überall auf der Welt und ernährt sich nicht selten von Abfällen, dringt in Lagerräume von Lebensmitteln ein oder zernagt Kabel und Rohre. Das macht sie zu einem unbeliebten Zeitgenossen, da sie dadurch nicht nur Schäden anrichtet, sondern auch gefährliche Infektionskrankheiten verbreitet. Die Wanderratte wird in der freien Natur meist nicht älter als ein Jahr, trotzdem können die Weibchen bis zu 40 Jungen zur Welt bringen. Sie werden also in dieser kurzen Zeit drei- bis viermal schwanger. Wanderratten sind sehr scheu und reagieren mit aggressivem Verhalten, wenn sie in Bedrängnis kommen. Diese Eigenschaften teilen ihre Nachfahren, die Farbratten (oder auch Laborratten) nicht. Sie sind aus der Zucht von Wanderratten mit weißem Fell und roten Augen (sogenannten Albinos) entstanden und sind heute beliebte Versuchs- und Haustiere."
+,"Bild":"images/ratte2_kl.jpg"
+,"Ton":"audio/wanderratte_nagen.mp3"
+}
+,
+{
+"Name":"Wasserspitzmaus (Neomys fodiens)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/wasserspitzmaus_agonistische_laute.mp3"
+}
+,
+{
+"Name":"Wildkatze (Felis silvestris)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"images/europ_wildkatze3_kl.jpg"
+,"Ton":"audio/wildkatze_maennchen_maunzen.mp3"
+}
+,
+{
+"Name":"Wildschwein (Sus scrofa)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Wildschweine kommen in fast ganz Europa und Asien vor. Die Tiere zeichnen sich durch eine hohe Anpassungsfähigkeit aus und sind in den letzten Jahren sogar bis in Gro�städte vorgedrungen. Bei der Nahrungssuche durchwühlen die Tiere den Boden nach essbaren Wurzeln, Würmern, Engerlingen, Mäusen, Schnecken und Pilzen. Als Allesfresser ernähren sie sich auch von Aas und Siedlungsabfällen.
+
+ 
+
+Rangordnungskämpfe gehören bei Wildschweinen zu der Tagesordnung. Die Rotte besteht in der Regel aus miteinander verwandten weiblichen Tieren und ihrem Nachwuchs. Männliche Schweine verlassen den Familienverband."
+,"Bild":"images/wildschwein2_kl.jpg"
+,"Ton":"audio/wildschwein_paar_nahrung.mp3"
+}
+,
+{
+"Name":"Wolf (Canis lupus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":"Ursprünglich praktisch über die gesamte Nordhalbkugel verbreitet wurde der Wolf in weiten Teilen seines Verbreitungsgebietes nahezu ausgerottet. Erst seit wenigen Jahren ist er wieder in Deutschland heimisch. Das weithin zu hörende Chorheulen dient dem Rudelzusammenhalt und der Territoriumsanzeige."
+,"Bild":"images/wolf2_kl.jpg"
+,"Ton":"audio/wolf_chorheulen.mp3"
+}
+,
+{
+"Name":"Zwergspitzmaus (Sorex minutus)"
+,"Gruppe":"saeuger"
+,"Beschreibung":""
+,"Bild":"platzhalter_saeuger.png"
+,"Ton":"audio/zwergspitzmaus_streitrufe.mp3"
+}
+,
+{
+"Name":"Alpendohle (Pyrrhocorax graculus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/alpendohle_kl.jpg"
+,"Ton":"audio/alpendohle_flugrufe.mp3"
+}
+,
+{
+"Name":"Alpenkrähe (Pyrrhocorax pyrrhocorax)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/alpenkraehe_kl.jpg"
+,"Ton":"audio/alpenkraehe_kurzlaute.mp3"
+}
+,
+{
+"Name":"Alpenschneehuhn (Lagopus mutus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/alpenschneehuhn_kl.jpg"
+,"Ton":"audio/alpenschneehuhn_rufe.mp3"
+}
+,
+{
+"Name":"Alpensegler (Tachymarptis melba)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/alpensegler_kl.jpg"
+,"Ton":"audio/alpensegler_rufe.mp3"
+}
+,
+{
+"Name":"Amsel (Turdus merula)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Amsel, ein ursprünglicher Waldbewohner, gehört zu den häufigsten und auch bekanntesten einheimischen Singvögeln. Sie baut ihr Nest meist in dem Gezweig von Sträuchern und Bäumen, nutzt aber auch gern Dachnischen. Ihr Lautrepertoire beinhaltet neben dem flötenden Gesang, der meist in den frühen Morgen- und späten Abendstunden zu hören ist, auch eine Reihe von Rufen. Bei Beunruhigung, unter anderem bei Annäherungen von Raubfeinden oder Menschen ertönt oft der Erregungsruf. Meist kann man kurz darauf den abfliegenden Vogel beobachten."
+,"Bild":"images/amsel_kl.jpg"
+,"Ton":"audio/amsel_gesang.mp3"
+}
+,
+{
+"Name":"Auerhuhn (Tetrao urogallus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Das Auerhuhn ist unser größter einheimischer Hühnervogel. Ehemals war es in lichten Waldbeständen relativ häufig anzutreffen. Jetzt kommt es bei uns nur noch in den Gebirgen vor und ist vom Aussterben bedroht. Während der Balz im Frühjahr ist seine tiefe Stimme weithin zu hören."
+,"Bild":"images/auerhuhn_kl.jpg"
+,"Ton":"audio/auerhahn_balz.mp3"
+}
+,
+{
+"Name":"Austernfischer (Haematopus ostralegus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Austernfischer ist ein häufiger Küstenvogel, der durch seine markante Färbung sowie sein charakteristisches Lautrepertoire leicht zu erkennen ist. Mit seinem langen und an der Spitze messerartig zusammengedrückten Schnabel ist er an das Stochern nach Würmern und Öffnen von Muscheln während der Nahrungssuche an Sandstränden, auf Schlickflächen und Muschelbänken bestens angepasst. Im Unterschied zu vielen anderen Watvögeln füttert der Austernfischer seine Jungen noch mehrere Wochen nach dem Schlupf und Verlassen des Nestes."
+,"Bild":"images/austernfischer3_kl.jpg"
+,"Ton":"audio/austernfischer_abflugrufe.mp3"
+}
+,
+{
+"Name":"Bachstelze (Motacilla alba)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Bachstelze ist ein in ländlicher Gegend häufig zu beobachtender Singvogel. Charakteristisch für Stelzen ist der auffallend lange Schwanz. Der Gesang ist eher unscheinbar. Ihr Nest errichten die Vögel in offenen Höhlungen wie Baumhöhlen, Mauerspalten, unter Brücken oder Dächern."
+,"Bild":"images/bachstelze_kl.jpg"
+,"Ton":"audio/bachstelze_gesang.mp3"
+}
+,
+{
+"Name":"Bartmeise (Panurus biarmicus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/bartmeise_kl.jpg"
+,"Ton":"audio/bartmeise_rufe.mp3"
+}
+,
+{
+"Name":"Baumfalke (Falco subbuteo)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Baumfalken gehören in Deutschland zu den gefährdeten Brutvogelarten. Die typischen kickernden Rufe sind meist zu hören, wenn die Altvögel um den Brutplatz kreisen oder am Nest landen. Oft werden leer stehende Krähennester als Nistplatz genutzt. Ihre Nahrung erbeuten die Falken im Flug."
+,"Bild":"images/baumfalke_kl.jpg"
+,"Ton":"audio/baumfalke_rufe.mp3"
+}
+,
+{
+"Name":"Baumpieper (Anthus trivialis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Gesang des Baumpiepers ist vor allem an Waldrändern oder Waldlichtungen zu hören, wo er entweder von einer Singwarte oder auch im Flug vorgetragen wird. Die etwa sperlingsgroßen Vögel errichten ihr Nest am Boden aus Grashalmen und Moos."
+,"Bild":"images/baumpieper_kl.jpg"
+,"Ton":"audio/baumpieper_gesang.mp3"
+}
+,
+{
+"Name":"Bekassine (Gallinago gallinago)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/bekassine_kl.jpg"
+,"Ton":"audio/bekassine_rufe.mp3"
+}
+,
+{
+"Name":"Berglaubsänger (Phylloscopus bonelli)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/berglaubsaenger_kl.jpg"
+,"Ton":"audio/berglaubsaenger_gesang.mp3"
+}
+,
+{
+"Name":"Beutelmeise (Remiz pendulinus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/beutelmeise_kl.jpg"
+,"Ton":"audio/beutelmeise_gesang.mp3"
+}
+,
+{
+"Name":"Birkenzeisig (Carduelis flammea)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/birkenzeisig_kl.jpg"
+,"Ton":"audio/birkenzeisig_lautfolgen.mp3"
+}
+,
+{
+"Name":"Birkhuhn (Tetrao tetrix)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/birkhuhn_kl.jpg"
+,"Ton":"audio/birkhuhn_balz.mp3"
+}
+,
+{
+"Name":"Blässgans (Anser albifrons)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Blässgans, deren Brutgebiete sich in den Tundraregionen Nordamerikas und Eurasiens befinden, ist bei uns ein regelmä�iger Gast während der Zugzeit. Anhand der Stimme lassen sich Blässgänse in gemeinsamen Schwärmen mit Saatgänsen gut identifizieren."
+,"Bild":"images/blaessgans_kl.jpg"
+,"Ton":"audio/blaessgans_rufe.mp3"
+}
+,
+{
+"Name":"Blässhuhn oder Blässralle (Fulica atra)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Das Blässhuhn bzw. die Blässralle ist einer unserer häufigsten Wasservögel und an nahezu jedem Gewässer anzutreffen. Ihre Nester bauen diese Rallen meist versteckt in der Schilfzone stehender Gewässer. Junge Küken lassen sich leicht an der roten Kopfzeichnung erkennen."
+,"Bild":"images/blaesshuhn_kl.jpg"
+,"Ton":"audio/blaesshuhn_rufe.mp3"
+}
+,
+{
+"Name":"Blaukehlchen (Luscinia svecica)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/blaukehlchen_kl.jpg"
+,"Ton":"audio/blaukehlchen_gesang.mp3"
+}
+,
+{
+"Name":"Blaumeise (Parus caeruleus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Den Gesang der Blaumeise kann man in Wäldern und Parkanlagen bereits in den Wintermonaten vernehmen. Diese an ihrer blauen Kopfplatte leicht zu erkennende Meise baut ihre Nester in Baumhöhlen und nutzt auch sehr gern Nistkästen."
+,"Bild":"images/blaumeise_kl.jpg"
+,"Ton":"audio/blaumeise_gesang.mp3"
+}
+,
+{
+"Name":"Bluthänfling (Carduelis cannabina)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/bluthaenfling_kl.jpg"
+,"Ton":"audio/bluthaenfling_gesang.mp3"
+}
+,
+{
+"Name":"Brachpieper (Anthus campestris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/brachpieper_kl.jpg"
+,"Ton":"audio/brachpieper_gesang.mp3"
+}
+,
+{
+"Name":"Brandgans (Tadorna tadorna)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Brandgänse gehören wie auch Rostgänse zu den Halbgänsen und sind mit den Enten näher verwandt als mit Gänsen. Bei uns brüten sie an der Nord- und Ostsee, hauptsächlich in Küstenabschnitten mit Sand- oder Schlickflächen. Ihre Nester legen sie bevorzugt in alten Kaninchenbauen an, aber auch Fuchs- und Dachsbaue werden genutzt.
+
+ 
+
+Die Balz erfolgt bei Entenvögeln nach streng festgelegten Regeln. Ein wesentliches Element der Balz bei Brandgänsen ist das Hetzen, wobei ein Weibchen ein benachbartes Paar attackiert, um danach zu seinem Erpel zurückzukehren. Diese Attacken gehen mit lauten Rufen einher."
+,"Bild":"images/brandgans_kl.jpg"
+,"Ton":"audio/brandgans_balz.mp3"
+}
+,
+{
+"Name":"Brandseeschwalbe (Sterna sandvicensis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/brandseeschwalbe_kl.jpg"
+,"Ton":"audio/brandseeschwalbe_flugrufe.mp3"
+}
+,
+{
+"Name":"Braunkehlchen (Saxicola rubetra)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Das Braunkehlchen ist ein typischer Bewohner offener Landschaften wie Heiden oder Brachflächen. Seinen Gesang lässt es meist von einer etwas erhöhten Singwarte ertönen. Die Art gehört bei uns zu den gefährdeten Brutvogelarten."
+,"Bild":"images/braunkehlchen_kl.jpg"
+,"Ton":"audio/braunkehlchen_gesang.mp3"
+}
+,
+{
+"Name":"Bruchwasserläufer (Tringa glareola)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der zu den Schnepfenvögeln zählende Bruchwasserläufer ist ein typischer Brutvogel in Mooren der Nadelwaldzone. Bei Beunruhigung wird ein Eindringling mit lauten hellen Rufen attackiert. In Deutschland ist der Brutbestand offenbar erloschen, Durchzügler aus dem Norden können aber regelmäßig beobachtet werden."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/bruchwasserlaeufer_rufe.mp3"
+}
+,
+{
+"Name":"Buchfink (Fringilla coelebs)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Buchfink ist einer der häufigsten unserer einheimischen Singvögel. Sein Gesang ist ab Mitte/Ende März praktisch in jedem Park und jedem Wald zu hören. Der Gesang dient der Markierung des Territoriums und dem Anlocken von Weibchen.
+
+ 
+
+Neben dem arteigenen Gesang nutzen Singvögel auch andere Lautäußerungen zur akustischen Kommunikation. Die hier zu hörenden Rufe des Buchfinken dienen gleichsam wie der Gesang zur Reviermarkierung."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/buchfink_gesang.mp3"
+}
+,
+{
+"Name":"Buntspecht (Picoides major)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Rufe des Buntspechtes, unserer häufigsten einheimischen Spechtart kann man praktisch das ganze Jahr über hören. Mit den �kix�-Rufen gibt der Vogel seinen Standort bekannt und drückt eine allgemeine Erregung aus. Bei großer Erregung werden Reihen mit bis zu 120 Rufen pro Minute geäußert.
+
+ 
+
+Das charakteristische Trommeln des Buntspechtes ist vor allem im Frühjahr und Frühsommer während der Balz und der Jungenaufzucht zu hören. Es ist ein Signal zur Reviermarkierung und zum Höhlenanzeigen. Anhand des Rhythmus des Trommelns können die verschiedenen Spechtarten eindeutig unterschieden werden.
+
+ 
+
+Wenn die geschlüpften Jungen ein Alter von ca. einer Woche erreicht haben, kann man aus den Höhlen langanhaltende Rufreihen hören, die in ihrer Funktion Bettellaute sind. Vorher geben die Nestjungen nur ein stimmloses Schwirren von sich."
+,"Bild":"images/buntspecht_kl.jpg"
+,"Ton":"audio/buntspecht_rufreihen.mp3"
+}
+,
+{
+"Name":"Dohle (Corvus monedula)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/dohle_kl.jpg"
+,"Ton":"audio/dohle_trupp_rufe.mp3"
+}
+,
+{
+"Name":"Dorngrasmücke (Sylvia communis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Grasmücken sind keine Insekten, sondern eine Gattung der Singvögel. Die Dorngrasmücke ist bei uns insbesondere in offenen Landschaften mit eingestreuten Buschbeständen anzutreffen. Der Gesang wird teilweise im Singflug vorgetragen."
+,"Bild":"images/dorngrasmuecke_kl.jpg"
+,"Ton":"audio/dorngrasmuecke_gesang.mp3"
+}
+,
+{
+"Name":"Dreizehenmöwe (Rissa tridactyla)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/dreizehenmoewe_kl.jpg"
+,"Ton":"audio/dreizehenmoewe_laute.mp3"
+}
+,
+{
+"Name":"Drosselrohrsänger (Acrocephalus arundinaceus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Drosselrohrsänger bewohnt Schilf- und Röhrichtbestände größerer Seen. Die Nester werden meist an Schilfhalmen befestigt. Er ist bei uns die größte Rohrsängerart. Den charakteristischen Gesang kann man recht leicht aus dem Stimmengewirr am Gewässer heraushören."
+,"Bild":"images/drosselrohrsaenger_kl.jpg"
+,"Ton":"audio/drosselrohrsaenger.mp3"
+}
+,
+{
+"Name":"Eichelhäher (Garrulus glandarius)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Es gibt wohl kaum einen Vogelbeobachter, der nicht schon einmal von den Rufen des Eichelhähers genarrt wurde. Diese zu den Rabenvögeln gehörende Art hat eine erstaunliche Fähigkeit zur Lautimitation. Nahezu perfekt werden Rufe von Bussarden oder Habichten nachgeahmt."
+,"Bild":"images/eichelhaeher_kl.jpg"
+,"Ton":"audio/eichelhaeher_trupp.mp3"
+}
+,
+{
+"Name":"Eiderente (Somateria mollissima)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Eiderente ist eine nordische Entenart, und kommt entlang der nördlichen Küsten von Europa, Nordafrika und Ostsibirien vor. Die Daunen der Eiderente weisen eine hohe Wärmespeicherkapazität auf und werden auch heute noch für Kissen, Bettdecken und Daunenjacken genutzt."
+,"Bild":"images/eiderente_kl.jpg"
+,"Ton":"audio/eiderente.mp3"
+}
+,
+{
+"Name":"Eissturmvogel (Fulmarus glacialis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/eissturmvogel_kl.jpg"
+,"Ton":"audio/eissturmvogel_begruessungslaute.mp3"
+}
+,
+{
+"Name":"Eisvogel (Alcedo atthis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/eisvogel_kl.jpg"
+,"Ton":"audio/eisvogel_rufsequenzen.mp3"
+}
+,
+{
+"Name":"Elster (Pica pica)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Den Ruf als diebische Elster verdankt der Vogel der Eigenheit die verschiedensten Gegenstände als Nestmaterial zu verwenden. Nester aus Draht oder Kunststoff sind keine Seltenheit."
+,"Bild":"images/elster_kl.jpg"
+,"Ton":"audio/elster_laute.mp3"
+}
+,
+{
+"Name":"Erlenzeisig (Carduelis spinus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/erlenzeisig4_kl.jpg"
+,"Ton":"audio/erlenzeisig_gesang.mp3"
+}
+,
+{
+"Name":"Fasan (Phasianus colchicus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die ursprüngliche Heimat unseres Fasans ist die Schwarzmeerküste von Südanatolien bis in den Kaukasus. Er war von den Griechen nach Europa gebracht worden und kam später mit den Römern auch in unsere Regionen. In unserer Kulturlandschaft besiedelt er vor allem parkähnliche Landschaftsteile, auch Ackerbaugebiete und Kleingartenanlagen."
+,"Bild":"images/fasan_kl.jpg"
+,"Ton":"audio/fasan_rufe.mp3"
+}
+,
+{
+"Name":"Feldlerche (Alauda arvensis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Feldlerchen sind charakteristische Bewohner von Feld- und Heidelandschaften. Ihre Nester errichten sie am Boden. Der Gesang wird in Form langanhaltender Strophen im Flug vorgetragen und bestimmt wesentlich die Geräuschkulisse unserer Agrarlandschaft."
+,"Bild":"images/feldlerche_kl.jpg"
+,"Ton":"audio/feldlerche_gesang.mp3"
+}
+,
+{
+"Name":"Feldschwirl (Locustella naevia)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Gesang des Feldschwirls erinnert an eine Heuschrecke, jedoch handelt es sich hier um einen etwa sperlingsgroßen Singvogel aus der Familie der Grasmücken. Er kommt in Sümpfen, Auwäldern, Heiden und anderen offenen Landschaften vor. Das Nest wird am Boden errichtet."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/feldschwirl_gesang.mp3"
+}
+,
+{
+"Name":"Feldsperling (Passer montanus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Feldsperling ist die zweite Sperlingsart, die bei uns vorkommt. Er unterscheidet sich vom Haussperling durch den schwarzen Fleck auf der weißen Wange, den sowohl die Männchen als auch die Weibchen tragen. Er lebt häufiger in den ländlichen Gebieten, man kann ihn aber auch in den grünen Bereichen von Städten antreffen."
+,"Bild":"images/feldsperling_kl.jpg"
+,"Ton":"audio/feldsperling_lautfolgen.mp3"
+}
+,
+{
+"Name":"Felsentaube (Columba livia)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Felsentaube ist die wildlebende Ursprungsart unserer Straßentaube. Manche Straßentauben sehen genauso aus wie eine Felsentaube, viele haben aber eine abweichende Färbung, da sie von den zahlreichen gezüchteten Färbungsvarianten abstammen. Felsentauben brüten in Felshöhlen und auf Klippen in Südeuropa und Nordafrika. Unserer Straßentauben haben sich die Gebäude der Menschen als Ersatzfelsen gewählt."
+,"Bild":"images/felsentaube_kl.jpg"
+,"Ton":"audio/felsentaube_balz.mp3"
+}
+,
+{
+"Name":"Fichtenkreuzschnabel (Loxia curvirostra)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/fichtenkreuzschnabel_kl.jpg"
+,"Ton":"audio/fichtenkreuzschnabel_gesang.mp3"
+}
+,
+{
+"Name":"Fischadler (Pandion haliaetus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Fischadler wird in der Roten Liste der Brutvögel Deutschlands als gefährdete Art geführt. Die größten Vorkommen sind in Mecklenburg und Brandenburg. Die Hauptnahrung bilden, wie auch sein Name besagt, Fische."
+,"Bild":"images/fischadler_kl.jpg"
+,"Ton":"audio/fischadler_rufe.mp3"
+}
+,
+{
+"Name":"Fitis (Phylloscopus trochilus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Fitislaubsänger ist ein kleiner unscheinbarer Singvogel, der von dem sehr ähnlich aussehenden Zilpzalp oder Weidenlaubsänger in erster Linie anhand des Gesanges unterschieden werden kann. Er bewohnt lichte, unterholzreiche Laub-, Misch- und teilweise Nadelwälder. Das backofenförmige Nest wird am Boden errichtet."
+,"Bild":"images/fitis2_kl.jpg"
+,"Ton":"audio/fitis_gesang.mp3"
+}
+,
+{
+"Name":"Flussregenpfeifer (Charadrius dubius)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/flussregenpfeifer_kl.jpg"
+,"Ton":"audio/flussregenpfeifer_rufe.mp3"
+}
+,
+{
+"Name":"Flussseeschwalbe (Sterna hirundo)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Flussseeschwalbe lebt entlang der europäischen Atlantik-, Nordsee-, Ostsee- und Mittelmeerküste, meist in Brutkolonien auf Sandbänken. Nähern sich Feinde (Füchse, Menschen) den Nestern werden sie mit lauten Rufen und Kot attackiert."
+,"Bild":"images/flussseeschwalbe3_kl.jpg"
+,"Ton":"audio/flussseeschwalbe_einzelruf.mp3"
+}
+,
+{
+"Name":"Flussuferläufer (Actitis hypoleucos)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/flussuferlaeufer_rufe.mp3"
+}
+,
+{
+"Name":"Gartenbaumläufer (Certhia brachydactyla)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Dieser kleine unscheinbare einheimische Singvogel kann, ähnlich wie ein Specht, an Baumstämmen nach oben laufen. Er bevorzugt lichte Laubwälder mit Eichen, Parks und Gärten mit gro�en Bäumen. Sein Nest baut er in Höhlungen, Baumspalten oder auch Nistkästen."
+,"Bild":"images/gartenbaumlaeufer_kl.jpg"
+,"Ton":"audio/gartenbaumlaeufer_gesang.mp3"
+}
+,
+{
+"Name":"Gartengrasmücke (Sylvia borin)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/gartengrasmuecke_kl.jpg"
+,"Ton":"audio/gartengrasmuecke_gesang.mp3"
+}
+,
+{
+"Name":"Gartenrotschwanz (Phoenicurus phoenicurus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Gartenrotschwanz bewohnt lichte Laub-, Misch- und Nadelwälder, aber auch Gärten und Parkanlagen. Im Gegensatz zum Hausrotschwanz sind die Männchen auffällig bunt gefärbt. Das Nest wird meist in Baumhöhlen oder auch Nistkästen gebaut."
+,"Bild":"images/gartenrotschwanz_kl.jpg"
+,"Ton":"audio/gartenrotschwanz_gesang.mp3"
+}
+,
+{
+"Name":"Gebirgsstelze (Motacilla cinerea)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/gebirgsstelze_kl.jpg"
+,"Ton":"audio/gebirgsstelze_gesang.mp3"
+}
+,
+{
+"Name":"Gelbspötter (Hippolais icterina)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der etwa sperlingsgroße einheimische Gelbspötter zeichnet sich durch einen sehr variablen Gesang aus. In die Strophen werden zahlreiche Gesangselemente anderer Vogelarten eingebaut. Diese Eigenschaft bezeichnet man bei Vögeln als Spotten."
+,"Bild":"images/gelbspoetter_kl.jpg"
+,"Ton":"audio/gelbspoetter_gesang.mp3"
+}
+,
+{
+"Name":"Gimpel (Pyrrhula pyrrhula)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Gimpel, auch Dompfaff oder Blutfink genannt ist ein kräftiger, rundlicher Finkenvogel mit schwarzer Kopfplatte, grauem Rücken und schwarzen Flügeln mit weißer Binde. Das Männchen besitzt einen leuchtend roten Bauch, während die Bauchfärbung bei den Weibchen nur hell graubraun ist. Er ernährt sich hauptsächlich von Samen und Knospen, kann aber mit seinem dicken, schwarzen Kegelschnabel auch hartschalige Früchte öffnen. Sein Gesang besteht aus leisen Pfeifelementen und Trillern sowie krächzenden und knarrenden Lauten. Die 'djü'-Rufe, die sehr weich klingen, können leicht zum Anlocken nachgepfiffen werden."
+,"Bild":"images/gimpel_kl.jpg"
+,"Ton":"audio/gimpel_gesang.mp3"
+}
+,
+{
+"Name":"Girlitz (Serinus serinus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/girlitz_kl.jpg"
+,"Ton":"audio/girlitz_gesang.mp3"
+}
+,
+{
+"Name":"Goldammer (Emberiza citrinella)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Goldammer ist ein typischer Vogel unserer Agrarlandschaft. Sie bewohnt offenes, mit Hecken und Feldgehölzen durchsetztes Gelände, Waldränder und baumbestandene Landstraßen. Im Gesang bilden die Goldammern Dialekte aus, d.h. man kann anhand der Stimme klar erkennen, aus welcher Region der Vogel kommt."
+,"Bild":"images/goldammer_kl.jpg"
+,"Ton":"audio/goldammer_gesang.mp3"
+}
+,
+{
+"Name":"Grauammer (Emberiza calandra)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/grauammer_kl.jpg"
+,"Ton":"audio/grauammer_gesang.mp3"
+}
+,
+{
+"Name":"Graugans (Anser anser)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Graugans ist neben der aus Nordamerika stammenden Kanadagans die größte einheimische Gänseart. Die Lautgebung ist sehr variabel. Wurde ein Eindringling erfolgreich vertrieben, stimmen die Gänse einer Gruppe in ein so genanntes Triumphgeschrei ein.
+
+ 
+
+Die Graugans ist in Mitteleuropa ein häufiger Brutvogel. Die Nester werden meist in der Schilfzone größerer Gewässer errichtet. Anhaltende Rufreihen sind ein Territorialsignal."
+,"Bild":"images/graugans_kl.jpg"
+,"Ton":"audio/graugans_gruppenrufe.mp3"
+}
+,
+{
+"Name":"Graureiher (Ardea cinerea)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Graureiher oder auch Fischreiher genannt ist immer häufiger auch in unseren Städten zu sehen. Er ist fast so groß wie ein Storch und besitzt blau-graues Gefieder und auf der Stirn und dem Oberkopf weiße Federn. Charakteristisch sind die schwarzen Augenstreifen und die langen schwarzen Schopffedern. Zu seiner Nahrung gehören Fische und Frösche, die er blitzschnell mit seinem langen, gelb-orangefarbenen Schnabel aus dem Wasser fischen kann. Im Flug sind der s-förmig gekrümmte Hals und die lang nach hinten ausgestreckten Beine sehr auffällig."
+,"Bild":"images/graureiher_kl.jpg"
+,"Ton":"audio/graureiher_flugrufe.mp3"
+}
+,
+{
+"Name":"Grauschnäpper (Muscicapa striata)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/grauschnaepper_gesang.mp3"
+}
+,
+{
+"Name":"Grauspecht (Picus canus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/grauspecht_kl.jpg"
+,"Ton":"audio/grauspecht_trommeln.mp3"
+}
+,
+{
+"Name":"Großer Brachvogel (Numenius arquata)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Große Brachvogel gehört zu den stark gefährdeten Brutvogelarten Deutschlands. Auffällig ist sein langer nach unten gebogenen Schnabel. Er bevorzugt offene und feuchte Stellen und war wohl früher vorrangig in Moorgebieten zu finden. Seine Rufe äußert er meist im Flug."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/grosser_brachvogel_rufe.mp3"
+}
+,
+{
+"Name":"Grünfink (Carduelis chloris)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Grünfinken bevorzugen offenes mit Baumgruppen bestandenes Gelände und sind daher auch sehr häufig in Gärten und Parkanlagen anzutreffen. Das Nest wird meist in Hecken oder in geringer Höhe in Bäumen errichtet. Im Winter kann man die Vögel auch oft am Futterhaus beobachten."
+,"Bild":"images/gruenfink_kl.jpg"
+,"Ton":"audio/gruenfink_gesang.mp3"
+}
+,
+{
+"Name":"Grünspecht (Picus viridis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Im Gegensatz zu Buntspechten trommeln Grünspechte nur selten. Häufiger ist ihre lachende Stimme zu hören, insbesondere zur Paarungszeit im Frühjahr. Der bevorzugte Lebensraum sind lockere Wälder, Streuobstwiesen, Parks und Gärten."
+,"Bild":"images/gruenspecht2_kl.jpg"
+,"Ton":"audio/gruenspecht_rufreihen.mp3"
+}
+,
+{
+"Name":"Habicht (Accipiter gentilis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Rufe des Habichts sind ab dem späten Winter bis in das Frühjahr zu hören, wenn er sein Brutrevier besetzt hat. Er ist ein kräftiger Greifvogel, wobei die Weibchen deutlich größer sind als die Männchen. Seine Beute sind vielfach Vögel, oft Tauben oder Rabenvögel, aber auch Säugetiere wie Mäuse und Kaninchen. Er brütet in Wäldern, seit einiger Zeit hat er aber auch einige große Städte wie zum Beispiel Berlin besiedelt."
+,"Bild":"images/habicht_kl.jpg"
+,"Ton":"audio/habicht_rufreihen.mp3"
+}
+,
+{
+"Name":"Halsbandschnäpper (Ficedula albicollis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/halsbandschnaepper%20_kl.jpg"
+,"Ton":"audio/halsbandschnaepper_gesang.mp3"
+}
+,
+{
+"Name":"Haselhuhn (Bonasa bonasia)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/haselhuhn2_kl.jpg"
+,"Ton":"audio/haselhuhn_rufe_henne.mp3"
+}
+,
+{
+"Name":"Haubenlerche (Galerida cristata)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Haubenlerche ist ein typischer Steppenvogel. Bei uns kommt sie vor allem auf Ödland oder neu bebauten Gebieten vor. Im Winter sind die Vögel auch oft inmitten von Großstädten zu beobachten. Ihre Nester errichtet sie am Boden, mitunter auch auf Flachdächern."
+,"Bild":"images/haubenlerche_kl.jpg"
+,"Ton":"audio/haubenlerche_gesang.mp3"
+}
+,
+{
+"Name":"Haubenmeise (Parus cristatus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/haubenmeise_kl.jpg"
+,"Ton":"audio/haubenmeise_lautfolgen.mp3"
+}
+,
+{
+"Name":"Haubentaucher (Podiceps cristatus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Haubentaucher ist ein häufiger Brutvogel schilfumstandener Gewässer, an denen er oft frei auf der Wasserfläche schwimmend anzutreffen ist. In der Brutzeit ist er besonders gut an seinem ausgeprägten Kopfschmuck, der zweigeteilten Haube und dem rostbraunschwarzen Backenbart, zu erkennen, der während der auffälligen Balz gesträubt und kräftig geschüttelt wird. Nach Schlupf im Nest, ein auf dem Wasser schwimmender Haufen von Pflanzenteilen, kriechen die Jungen unter die Flügel ins Rückengefieder der Altvögel und begleiten diese von nun an beim Schwimmen und Tauchen."
+,"Bild":"images/haubentaucher2_kl.jpg"
+,"Ton":"audio/haubentaucher_paarrufe.mp3"
+}
+,
+{
+"Name":"Hausrotschwanz (Phoenicurus ochruros)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der ursprüngliche Lebensraum des Hausrotschwanzes ist felsiges, sonniges Gelände bis ins Hochgebirge. Menschliche Siedlungen haben ihm einen neuen Lebensraum erschlossen, wo er oft unter Dachvorsprüngen und anderen Nischen sein Nest errichtet."
+,"Bild":"images/hausrotschwanz_kl.jpg"
+,"Ton":"audio/hausrotschwanz_gesang.mp3"
+}
+,
+{
+"Name":"Haussperling (Passer domesticus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Haussperling ist wohl einer der bekanntesten einheimischen Singvögel. In Siedlungen ist er praktisch überall anzutreffen und hat sich insbesondere als Mitreisender auf Schiffen weltweit verbreitet. Der Haussperling wurde 2002 zum Vogel des Jahres gewählt, um auch auf den Rückgang sonst sehr häufiger Vogelarten aufmerksam zu machen."
+,"Bild":"images/haussperling_kl.jpg"
+,"Ton":"audio/haussperling_balz.mp3"
+}
+,
+{
+"Name":"Heckenbraunelle (Prunella modularis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/heckenbraunelle_kl.jpg"
+,"Ton":"audio/heckenbraunelle_gesang.mp3"
+}
+,
+{
+"Name":"Heidelerche (Lullula arborea)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/heidelerche_kl.jpg"
+,"Ton":"audio/heidelerche_gesang.mp3"
+}
+,
+{
+"Name":"Höckerschwan (Cygnus olor)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Höckerschwan stammt eigentlich aus dem polnisch-norddeutschen Tiefland und wurde seit dem 16. Jahrhundert an Seen und in Parks in Mitteleuropa und Nordamerika ausgesetzt. Die majestätischen Vögel besitzen oberhalb des orangefarbenen Schnabels einen schwarzen Höcker, der ihnen den Namen gab. Auf Grund ihrer Größe und dem enormen Gewicht von bis zu über 10 Kilogramm benötigen die Tiere einen langen Anlauf bis sie fliegen können. Im Flug ist ein weithin hörbares rhythmisches singendes Fluggeräusch zu vernehmen."
+,"Bild":"images/hoeckerschwan_kl.jpg"
+,"Ton":"audio/hoeckerschwan_lautfolgen.mp3"
+}
+,
+{
+"Name":"Hohltaube (Columba oenas)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/hohltaube_kl.jpg"
+,"Ton":"audio/hohltaube_rufreihen.mp3"
+}
+,
+{
+"Name":"Karmingimpel (Carpodacus erythrinus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Karmingimpel ist ein Bewohner lockerer Waldbestände in Osteuropa und Asien. In den letzten Jahren konnte eine Ausbreitung nach Westeuropa, insbesondere entlang der Küsten beobachtet werden. Alte Männchen haben eine auffällig rote Brust, jüngere sind schlichter gefärbt."
+,"Bild":"images/karmingimpel_kl.jpg"
+,"Ton":"audio/karmingimpel_gesang.mp3"
+}
+,
+{
+"Name":"Kernbeißer (Coccothraustes coccothraustes)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/kernbeisser_kl.jpg"
+,"Ton":"audio/kernbeisser_gesang.mp3"
+}
+,
+{
+"Name":"Kiebitz (Vanellus vanellus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der zu den Schnepfenvögeln gehörende Kiebitz bewohnt feuchte Wiesen und Äcker in weiten Teilen Europas, Mittel- uns Ostasiens. Das aus 4 Eiern bestehende Gelege wird in einer Bodenmulde ausgebrütet. Während des Zuges halten die auch in der Nacht fliegenden Vögel mit Flugrufen akustischen Kontakt."
+,"Bild":"images/kiebitz_kl.jpg"
+,"Ton":"audio/kiebitz_flugrufe.mp3"
+}
+,
+{
+"Name":"Klapper- oder Zaungrasmücke (Sylvia curruca)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/klappergrasmuecke_kl.jpg"
+,"Ton":"audio/klappergrasmuecke_gesang.mp3"
+}
+,
+{
+"Name":"Kleiber (Sitta europaea)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Kleiber wurde 2006 zum Vogel des Jahres gewählt. Damit soll insbesondere auf das Schwinden des Lebensraumes, alte Baumbestände mit zahlreichen Baumhöhlen aufmerksam gemacht werden. Sein Lautrepertoire ist sehr reichhaltig, angefangen von Pfiffen �ber Triller bis hin zu komplexen Rufreihen."
+,"Bild":"images/kleiber_kl.jpg"
+,"Ton":"audio/kleiber_rufe.mp3"
+}
+,
+{
+"Name":"Kleinspecht (Picoides minor)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Kleinspecht ist die kleinste einheimische Spechtart. Das Trommeln ist vor allem während der Paarungszeit zu hören und dient der Revieranzeige. Anhand des Trommelrhythmus lassen sich die Spechte gut auseinanderhalten. Der Kleinspecht trommelt am schnellsten."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/kleinspecht_trommeln.mp3"
+}
+,
+{
+"Name":"Knäkente (Anas querquedula)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/knaekente_kl.jpg"
+,"Ton":"audio/knaekente_rufe.mp3"
+}
+,
+{
+"Name":"Kohlmeise (Parus major)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Kohlmeise ist die häufigste einheimische Meisenart. Sie brütet in Baumhöhlen und auch Nistkästen in Wäldern aller Art, Parkanlagen und Gärten. Der Gesang besteht aus wenigen einfachen Elementen und ist dennoch sehr variabel. Mittels Gesang wird ein besetztes Revier angezeigt. Die Rufe dienen in erster Linie dafür, Kontakt zwischen den Partnern zu halten."
+,"Bild":"images/kohlmeise_kl.jpg"
+,"Ton":"audio/kohlmeise_rufreihen.mp3"
+}
+,
+{
+"Name":"Kolkrabe (Corvus corax)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Kolkrabe ist der größte einheimische Rabenvogel. Durch intensive Bejagung war der Vogel Mitte des letzten Jahrhunderts bereits vom Aussterben bedroht. Die Unterschutzstellung bewirkte, dass sich die Art wieder in ganz Deutschland ansiedeln konnte."
+,"Bild":"images/kolkrabe_kl.jpg"
+,"Ton":"audio/kolkrabe_rufe.mp3"
+}
+,
+{
+"Name":"Kormoran (Phalacrocorax carbo)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/kormoran_balz.mp3"
+}
+,
+{
+"Name":"Kranich (Grus grus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Erfreulicherweise gehört der Kranich nicht mehr zu den vom Aussterben bedrohten Vogelarten. Mehr als 4000 Paare brüten gegenwärtig in Deutschland. Sein Gelege baut er am Boden, vornehmlich in Feuchtgebieten. Die Partner, die sich anhand der Stimme erkennen, bleiben oft lebenslang beieinander.
+
+ 
+
+Der Zug der Kraniche gehört wohl zu den beeindruckendsten Naturereignissen. Insbesondere während des Herbstzuges lassen sich Tausende von Vögeln aus Skandinavien auf ihren Rastplätzen an der Ostseeküste oder in Feuchtgebieten im Binnenland nieder. Start und Landung werden von lautstarken Rufen begleitet."
+,"Bild":"images/kranich2_kl.jpg"
+,"Ton":"audio/kranich_rufe.mp3"
+}
+,
+{
+"Name":"Krickente (Anas crecca)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/krickente3_kl.jpg"
+,"Ton":"audio/krickente_weibchen_rufe.mp3"
+}
+,
+{
+"Name":"Kuckuck (Cuculus canorus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Ruf des Kuckucks ist so unverkennbar, dass ihn wohl schon jeder gehört hat. Der Kuckuck kommt in fast ganz Europa und Asien sowie in Nordafrika überall dort vor, wo auch seine Wirtsarten zu Hause sind. Seine Eier legt er in die Nester von in der Regel viel kleineren Singvögeln."
+,"Bild":"images/kuckuck_kl.jpg"
+,"Ton":"audio/kuckuck_rufe.mp3"
+}
+,
+{
+"Name":"Küstenseeschwalbe (Sterna paradisaea)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/kuestenseeschwalbe_kl.jpg"
+,"Ton":"audio/kuestenseeschwalbe_rufe.mp3"
+}
+,
+{
+"Name":"Lachmöwe (Larus ridibundus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Im Gegensatz zu den meisten anderen Möwen, die Küstenbewohner sind, ist die Lachmöwe ein typischer Brutvogel an Binnengewässern. Dabei werden große, recht lautstarke Kolonien gebildet. Die Nester mit 3 Eiern werden am Boden oder auf Schilfbülten errichtet."
+,"Bild":"images/lachmoewe_kl.jpg"
+,"Ton":"audio/lachmoewe_rufe.mp3"
+}
+,
+{
+"Name":"Löffelente (Anas clypeata)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/loeffelente_kl.jpg"
+,"Ton":"audio/loeffelente_weibchen.mp3"
+}
+,
+{
+"Name":"Mäusebussard (Buteo buteo)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Mäusebussard ist wohl die häufigste einheimische Greifvogelart. Seine Stimme ist besonders oft im Frühjahr, wenn die Tiere in der Luft balzen, zu hören. Seine Nahrung bilden in erster Linie kleinere Nagetiere, die er von einer Sitzwarte aus erbeutet."
+,"Bild":"images/maeusebussard_kl.jpg"
+,"Ton":"audio/maeusebussard_rufe.mp3"
+}
+,
+{
+"Name":"Mauersegler (Apus apus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/mauersegler2_kl.jpg"
+,"Ton":"audio/mauersegler_gruppe_flugrufe.mp3"
+}
+,
+{
+"Name":"Mehlschwalbe (Delichon urbica)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/mehlschwalbe_kl.jpg"
+,"Ton":"audio/mehlschwalbe_flugrufe.mp3"
+}
+,
+{
+"Name":"Misteldrossel (Turdus viscivorus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/misteldrossel_kl.jpg"
+,"Ton":"audio/misteldrossel_gesang.mp3"
+}
+,
+{
+"Name":"Mittelspecht (Picoides medius)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/mittelspecht_kl.jpg"
+,"Ton":"audio/mittelspecht_rufreihe.mp3"
+}
+,
+{
+"Name":"Mönchsgrasmücke (Sylvia atricapilla)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/moenchsgrasmuecke_gesang.mp3"
+}
+,
+{
+"Name":"Nachtigall (Luscinia megarhynchos)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Nachtigall ist bei uns ein häufiger Vogel in lockeren Buschbeständen, in Parkanlagen oder Feldgehölzen. Ihr Name ist darauf zurückzuführen, dass sie einer der wenigen Vögel ist, die auch in der Nacht singen. Dabei ist der melodische, sehr variable Gesang weithin zu hören. Natürlich singen Nachtigallen auch tagsüber."
+,"Bild":"images/nachtigall_kl.jpg"
+,"Ton":"audio/nachtigall_gesang.mp3"
+}
+,
+{
+"Name":"Nebelkrähe (Corvus corone cornix)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Nebelkrähe ist eine Unterart der Aaskrähe. Die grau-schwarz gefärbten Vögel kommen nordöstlich der Elbe vor und werden im Südwesten von der rein schwarz gefärbten Rabenkrähe vertreten. In einer schmalen Überlappungszone treten Mischformen dieser beiden Unterarten auf."
+,"Bild":"images/nebelkraehe4_kl.jpg"
+,"Ton":"audio/nebelkraehe_rufe.mp3"
+}
+,
+{
+"Name":"Neuntöter (Lanius collurio)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/neuntoeter_kl.jpg"
+,"Ton":"audio/neuntoeter_gesang.mp3"
+}
+,
+{
+"Name":"Orpheusspötter (Hippolais polyglotta)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/orpheusspoetter_kl.jpg"
+,"Ton":"audio/orpheusspoetter_gesang.mp3"
+}
+,
+{
+"Name":"Ortolan (Emberiza hortulana)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/ortolan_kl.jpg"
+,"Ton":"audio/ortolan_gesang.mp3"
+}
+,
+{
+"Name":"Pirol (Oriolus oriolus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der farbenprächtige Pirol ist ein Charaktervogel in südlichen Regionen Europas und erreicht bei uns fast die Nordgrenze des Verbreitungsgebietes. Er bewohnt lichte Auenwälder, Bruchwälder und gewässernahe Gehölze. Als Langstreckenzieher, der vor allem in Ostafrika südlich der Sahara �berwintert, trifft er bei uns erst Ende April/Anfang Mai ein."
+,"Bild":"images/pirol_kl.jpg"
+,"Ton":"audio/pirol_gesang.mp3"
+}
+,
+{
+"Name":"Rabenkrähe (Corvus corone corone)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Rabenkrähe ist eine Unterart der Aaskrähe. Die schwarz gefärbten Vögel kommen südöstlich der Elbe vor und werden im Nordosten von der grau-schwarz gezeichneten Nebelkrähe vertreten. In einer schmalen Überlappungszone treten Mischformen dieser beiden Unterarten auf."
+,"Bild":"images/rabenkraehe_kl.jpg"
+,"Ton":"audio/rabenkraehe_flugrufe.mp3"
+}
+,
+{
+"Name":"Raubwürger (Lanius excubitor)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/raubwuerger_kl.jpg"
+,"Ton":"audio/raubwuerger_rufe.mp3"
+}
+,
+{
+"Name":"Rauchschwalbe (Hirundo rustica)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Rauchschwalbe ist die bekannteste einheimische Schwalbenart. Sie lebt vor allem im ländlichen Raum und errichtet ihre Nester meist in Gebäuden, insbesondere in Kuhställen und Scheunen. Arten, die ihren natürlichen Lebensraum verlassen haben und sich die Vorteile von menschlichen Siedlungen zunutze machen, bezeichnet man als Kulturfolger. Ihre Nahrung sucht die Rauchschwalbe in offenen Landschaften und über Gewässern."
+,"Bild":"images/rauchschwalbe_kl.jpg"
+,"Ton":"audio/rauchschwalbe_gesang.mp3"
+}
+,
+{
+"Name":"Rauhfußkauz (Aegolius funereus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/rauhfusskauz_rufreihen.mp3"
+}
+,
+{
+"Name":"Rebhuhn (Perdix perdix)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rebhuhn_kl.jpg"
+,"Ton":"audio/rebhuhn_rufe.mp3"
+}
+,
+{
+"Name":"Reiherente (Aythya fuligula)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die zur Gruppe der Tauchente gehörende Reiherente ist hauptsächlich im nördlichen Teil Europas und Asiens beheimatet. Ihre Nahrung, die sie unter Wasser sucht, besteht aus Wasserpflanzen und Mollusken. Bei uns brütet die Reiherente im Schilfgürtel von größeren Binnengewässern."
+,"Bild":"images/reiherente8_kl.jpg"
+,"Ton":"audio/reiherente_rufe.mp3"
+}
+,
+{
+"Name":"Ringdrossel (Turdus torquatus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/ringdrossel_kl.jpg"
+,"Ton":"audio/ringdrossel_gesang.mp3"
+}
+,
+{
+"Name":"Ringeltaube (Columba palumbus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/ringeltaube10_kl.jpg"
+,"Ton":"audio/ringeltaube_beugebalz.mp3"
+}
+,
+{
+"Name":"Rohrammer (Emberiza schoeniclus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rohrammer_kl.jpg"
+,"Ton":"audio/rohrammer_gesang.mp3"
+}
+,
+{
+"Name":"Rohrdommel (Botaurus stellaris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rohrdommel_kl.jpg"
+,"Ton":"audio/rohrdommel_rufreihe.mp3"
+}
+,
+{
+"Name":"Rohrschwirl (Locustella luscinioides)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rohrschwirl_kl.jpg"
+,"Ton":"audio/rohrschwirl_gesang.mp3"
+}
+,
+{
+"Name":"Rohrweihe (Circus aeruginosus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rohrweihe_kl.jpg"
+,"Ton":"audio/rohrweihe_rufe.mp3"
+}
+,
+{
+"Name":"Rotkehlchen (Erithacus rubecula)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Das Rotkehlchen ist einer unserer häufigsten einheimischen Singvögel und unschwer an seiner roten Brust zu erkennen. Seinen flötenden Gesang kann man bereits im zeitigen Frühjahr in Wäldern und Parkanlagen vernehmen. Das Nest wird meist am Boden zwischen Wurzeln oder unter Baumstämmen errichtet."
+,"Bild":"images/rotkehlchen_kl.jpg"
+,"Ton":"audio/rotkehlchen_gesang.mp3"
+}
+,
+{
+"Name":"Rotmilan (Milvus milvus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/rotmilan_kl.jpg"
+,"Ton":"audio/rotmilan_langrufe.mp3"
+}
+,
+{
+"Name":"Rotschenkel (Tringa totanus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Rotschenkel gehört zu den Schnepfenvögeln und brütet auf Wiesenflächen in der Nähe von Gewässern. Beim Abliegen des Territoriums lässt der etwa taubengroße Vogel mit roten Beinen seine flötende Stimme erklingen. Bei uns gehört der Rotschenkel zu den bestandsbedrohten Vogelarten."
+,"Bild":"images/rotschenkel_kl.jpg"
+,"Ton":"audio/rotschenkel_kurzlaute.mp3"
+}
+,
+{
+"Name":"Saatkrähe (Corvus frugilegus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Saatkrähe ist bei uns vor allem im Winter zu beobachten, wenn Vögel aus Osteuropa zum Überwintern kommen. Im Gegensatz zur Raben- oder Nebelkrähe nistet die Saatkrähe stets in mehr oder weniger großen Kolonien, in denen es recht laut zugeht."
+,"Bild":"images/saatkraehe_kl.jpg"
+,"Ton":"audio/saatkraehe_rufe.mp3"
+}
+,
+{
+"Name":"Säbelschnäbler (Recurvirostra avosetta)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/saebelschnaebler7_kl.jpg"
+,"Ton":"audio/saebelschnaebler_flugrufe.mp3"
+}
+,
+{
+"Name":"Sandregenpfeifer (Charadrius hiaticula)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/sandregenpfeifer_kl.jpg"
+,"Ton":"audio/sandregenpfeifer_flugrufe.mp3"
+}
+,
+{
+"Name":"Schafstelze (Motacilla flava)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schafstelze_kl.jpg"
+,"Ton":"audio/schafstelze_maennchen.mp3"
+}
+,
+{
+"Name":"Schellente (Bucephala clangula)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schellente_kl.jpg"
+,"Ton":"audio/schellente_balz.mp3"
+}
+,
+{
+"Name":"Schilfrohrsänger (Acrocephalus schoenobaenus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Schilfrohrsänger brütet an stehenden Gewässern mit einer gut entwickelten Schilf- oder Röhrichtzone. Sein Gesang, der zum Teil auch im Flug vorgetragen wird, ist sehr variabel und er baut auch gern Gesangselemente von anderen Arten in seine Strophen ein. Der Schilfrohrsänger gehört bei uns zu den stark gefährdeten Brutvogelarten."
+,"Bild":"images/schilfrohrsaenger_kl.jpg"
+,"Ton":"audio/schilfrohrsaenger_gesang.mp3"
+}
+,
+{
+"Name":"Schlagschwirl (Locustella fluviatilis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/schlagschwirl_gesang.mp3"
+}
+,
+{
+"Name":"Schleiereule (Tyto alba)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schleiereule_kl.jpg"
+,"Ton":"audio/schleiereule_fauchen.mp3"
+}
+,
+{
+"Name":"Schnatterente (Anas strepera)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schnatterente_kl.jpg"
+,"Ton":"audio/schnatterente_gruppenrufe.mp3"
+}
+,
+{
+"Name":"Schneefink (Montifringilla nivalis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schneefink_kl.jpg"
+,"Ton":"audio/schneefink_rufe.mp3"
+}
+,
+{
+"Name":"Schreiadler (Aquila pomarina)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Schreiadler ist unsere kleinste und zugleich auch seltenste Adlerart. Ungefähr 140 Paare brüten noch im Osten Deutschlands, speziell in Mecklenburg-Vorpommern. Der Schreiadler lebt entlang von Flüssen in größeren, zusammenhängenden Laub- und Mischwäldern, vor allem in Feuchtwäldern im Tiefland."
+,"Bild":"images/schreiadler_kl.jpg"
+,"Ton":"audio/schreiadler_rufreihe.mp3"
+}
+,
+{
+"Name":"Schwanzmeise (Aegithalos caudatus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schwanzmeise_kl.jpg"
+,"Ton":"audio/schwanzmeise_rufe.mp3"
+}
+,
+{
+"Name":"Schwarzhalstaucher (Podiceps nigricollis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schwarzhalstaucher_kl.jpg"
+,"Ton":"audio/schwarzhalstaucher_kuekenrufe.mp3"
+}
+,
+{
+"Name":"Schwarzkehlchen (Saxicola torquata)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schwarzkehlchen_kl.jpg"
+,"Ton":"audio/schwarzkehlchen_rufe.mp3"
+}
+,
+{
+"Name":"Schwarzmilan (Milvus migrans)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schwarzmilan_kl.jpg"
+,"Ton":"audio/schwarzmilan_futterbetteln.mp3"
+}
+,
+{
+"Name":"Schwarzspecht (Dryocopus martius)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Schwarzspecht ist die größte unserer einheimischen Spechtarten. Der typische Waldvogel baut in alten Bäumen seine Höhlen und schafft damit auch Brutplätze f�r andere Vogelarten wie z.B. Hohltauben und einige Eulenarten. Neben dem Trommeln spielen Rufe bei der Reviermarkierung eine große Rolle."
+,"Bild":"images/schwarzspecht_kl.jpg"
+,"Ton":"audio/schwarzspecht_rufe.mp3"
+}
+,
+{
+"Name":"Schwarzstorch (Ciconia nigra)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/schwarzstorch12_kl.jpg"
+,"Ton":"audio/schwarzstorch_jungvogel.mp3"
+}
+,
+{
+"Name":"Seeadler (Haliaeetus albicilla)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Seeadler ist unsere größte einheimische Greifvogelart. Gegenwärtig brüten in Deutschland ca. 400 Brutpaare, davon die meisten in Mecklenburg-Vorpommern und in Brandenburg. Seeadler leben in der Nähe von Gewässern und ernähren sich vor allem von Fischen und Wasservögeln, aber auch von Aas. Der Horst wird bevorzugt in den Kronen alter Bäume errichtet."
+,"Bild":"images/seeadler_kl.jpg"
+,"Ton":"audio/seeadler_erregung.mp3"
+}
+,
+{
+"Name":"Silbermöwe (Larus argentatus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Silbermöwe ist an unseren Küsten die häufigste Möwenart. Sie nistet teilweise in sehr großen Kolonien. Während der Zugzeit ist die Silbermöwe auch im Binnenland anzutreffen. Vereinzelt brütet sie auch an größeren Gewässern im Binnenland, insbesondere in der Tagebaufolgelandschaft. Das Rufrepertoire ist sehr vielseitig und besteht aus verschiedenen miauenden, lachenden und bellenden Rufen."
+,"Bild":"images/silbermoewe3_kl.jpg"
+,"Ton":"audio/silbermoewe_rufe.mp3"
+}
+,
+{
+"Name":"Singdrossel (Turdus philomelos)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Singdrossel ist einer unserer häufigsten Singvögel. Der typische Waldvogel hat einen sehr variablen Gesang mit zahlreichen Motiven, der vor allem in den frühen Morgen- und späten Abendstunden von den Wipfeln der Bäume vorgetragen wird."
+,"Bild":"images/singdrossel_kl.jpg"
+,"Ton":"audio/singdrossel_gesang.mp3"
+}
+,
+{
+"Name":"Singschwan (Cygnus cygnus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Den Singschwan kann man bei uns in der Regel nur im Winter und während der Zugzeit beobachten. Um den sprichwörtlichen Schwanengesang zu hören muss man sich schon in sein Brutgebiet in die nördlichen Nadelwälder Europas und Asiens begeben, wo er an Waldgewässern brütet."
+,"Bild":"images/singschwan_kl.jpg"
+,"Ton":"audio/singschwan_duett.mp3"
+}
+,
+{
+"Name":"Sommergoldhähnchen (Regulus ignicapillus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/sommergoldhaehnchen_kl.jpg"
+,"Ton":"audio/sommergoldhaehnchen_gesang.mp3"
+}
+,
+{
+"Name":"Sperber (Accipiter nisus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Sperber ist ein kleinerer bei uns heimischer Greifvogel. Die beiden Geschlechter unterscheiden sich hinsichtlich der Größe, wobei wie bei vielen anderen Greifvogelarten das Männchen kleiner als das Weibchen ist. Die Stimme des Sperbers vernimmt man meist nur am Horst."
+,"Bild":"images/sperber_kl.jpg"
+,"Ton":"audio/sperber_rufe.mp3"
+}
+,
+{
+"Name":"Sperbergrasmücke (Sylvia nisoria)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/sperbergrasmuecke_kl.jpg"
+,"Ton":"audio/sperbergrasmuecke_gesang.mp3"
+}
+,
+{
+"Name":"Sperlingskauz (Glaucidium passerinum)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/sperlingskauz_kl.jpg"
+,"Ton":"audio/sperlingskauz_gesang.mp3"
+}
+,
+{
+"Name":"Spießente (Anas acuta)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/spiessente_rufe.mp3"
+}
+,
+{
+"Name":"Sprosser (Luscinia luscinia)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Sprosser ist die Zwillingsart der Nachtigall und sieht dieser auch sehr ähnlich. Sein Verbreitungsgebiet schließt im Osten an das der Nachtigall an. Bei uns kommen Sprosser nur in Nordostdeutschland vor. Beide Arten sind an der Stimme gut zu unterscheiden, jedoch kommt es in einem engen Überlappungsgebiet vor, dass von der falschen Art gelernt wurde. Man spricht dann von Mischsängern."
+,"Bild":"images/sprosser_kl.jpg"
+,"Ton":"audio/sprosser_gesang.mp3"
+}
+,
+{
+"Name":"Star (Sturnus vulgaris)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Star kann leicht mit der etwas größeren Amsel verwechselt werden. Sein Federkleid glänzt aber im Gegensatz zur Amsel metallisch grün. In der Bewegung sind beide Arten gut zu unterscheiden: während der Star schreitet, neigt die Amsel am Boden eher zum Hüpfen und im Flug sehen die Flügel des Stares eher dreieckig und spitz aus. Stare bilden zuweilen riesige Trupps und finden sich im Herbst gegen Abend zu Schwärmen von Tausenden Tieren zu Schlafgemeinschaften zusammen. Der Gesang des Stares besteht aus pfeifenden, rätschenden, knackenden und schnalzenden Lauten. Ein wahrer Star ist er im Nachahmen anderer Vögel oder aber auch technischer Geräusche wie beispielsweise Klingeltönen von Handys."
+,"Bild":"images/star_kl.jpg"
+,"Ton":"audio/star_gesang.mp3"
+}
+,
+{
+"Name":"Steinadler (Aquila chrysaetos)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/steinadler_kl.jpg"
+,"Ton":"audio/steinadler_rufreihe.mp3"
+}
+,
+{
+"Name":"Steinkauz (Athene noctua)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/steinkauz_kl.jpg"
+,"Ton":"audio/steinkauz_rufe.mp3"
+}
+,
+{
+"Name":"Steinschmätzer (Oenanthe oenanthe)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/steinschmaetzer_kl.jpg"
+,"Ton":"audio/steinschmaetzer_gesang.mp3"
+}
+,
+{
+"Name":"Steinwälzer (Arenaria interpres)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der zu den Schnepfenvögeln gehörende Steinwälzer brütet auch an der deutschen Nord- und Ostseeküste. Sein Name ist auf die Art der Nahrungssuche zurückzuführen, wobei unter kleiner Steinen nach Wirbellosen (zum Beispiel Schnecken oder Würmern) gesucht wird. Am Brutplatz werden Eindringlinge angegriffen, was mit lauten Erregungsrufen einhergeht."
+,"Bild":"images/steinwaelzer_kl.jpg"
+,"Ton":"audio/steinwaelzer_erregung.mp3"
+}
+,
+{
+"Name":"Stieglitz (Carduelis carduelis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Stieglitz wird auch als Distelfink bezeichnet. Der buntgefärbte Singvogel ernährt sich von kleineren Samen und ist daher auch oft auf Disteln zu sehen. Am häufigsten sieht man ihn bei uns im Winter, wenn er in kleineren Trupps, oft gemeinsam mit Zeisigen, umherstreift."
+,"Bild":"images/stieglitz_kl.jpg"
+,"Ton":"audio/stieglitz_gesang.mp3"
+}
+,
+{
+"Name":"Stockente (Anas platyrhynchos)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Stockente ist die häufigste einheimische Entenart. Sie ist praktisch an jedem Gewässer anzutreffen. Ihr Nest kann sie jedoch auch weitab von Gewässern anlegen. Im Prachtkleid, das die Vögel vom Herbst bis zum Mai tragen sind die Männchen mit ihren blaugrünen Köpfen unverkennbar. Doch während der Sommermonate sind sie von den Weibchen kaum zu unterscheiden."
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/stockente_gruppenrufe.mp3"
+}
+,
+{
+"Name":"Weißstorch (Ciconia ciconia)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Weißstorch ist hierzulande ein wichtiges Symbol des Naturschutzes geworden. Die meisten Störche leben bei uns im Osten und Norden Deutschlands. Den Störchen fehlt ein eigentlicher Stimmapparat. Neben dem Schnabelklappern, mit dem sich die Brutpartner begrüßen, treten bei Altvögeln nur fauchende Laute auf. Die Lautgebung der Jungen ist variabler."
+,"Bild":"images/weissstorch_kl.jpg"
+,"Ton":"audio/storch_klappern.mp3"
+}
+,
+{
+"Name":"Sturmmöwe (Larus canus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Sturmmöwe ist neben der Silbermöwe die häufigste Möwenart an unseren Küsten. Dort bildet sie oft sehr große Kolonien, brütet aber teilweise auch im Binnenland. In den 70er Jahren war sie sogar die häufigste Möwenart an der deutschen Ostseeküste. Sturmmöwen sind extrem anpassungsfähig. In jüngerer Zeit wurden sogar Nester auf den Flachdächern in Städten gefunden.
+
+ 
+
+Die Stimmen der Sturmmöwen sind ein wesentlicher Bestandteil der Geräuschkulisse an unseren Küsten. Die auch als Jauchzen bezeichnete Rufreihe wird im Sitzen mit weit vorgestrecktem Kopf geäußert. Das Jauchzen ist ein wesentliches Element des Paarungsrituals, aber auch eine Form der Statusanzeige."
+,"Bild":"images/sturmmoewe_kl.jpg"
+,"Ton":"audio/sturmmoewe_flugrufe.mp3"
+}
+,
+{
+"Name":"Sumpfmeise (Parus palustris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/sumpfmeise_gesang.mp3"
+}
+,
+{
+"Name":"Sumpfrohrsänger (Acrocephalus palustris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/sumpfrohrsaenger_kl.jpg"
+,"Ton":"audio/sumpfrohrsaenger_gesang.mp3"
+}
+,
+{
+"Name":"Tafelente (Aythya ferina)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/tafelente_kl.jpg"
+,"Ton":"audio/tafelente_weibchen_flugrufe.mp3"
+}
+,
+{
+"Name":"Tannenhäher (Nucifraga caryocatactes)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Tannenhäher sind typische Bewohner von Nadelwäldern in Europa und Asien. In Deutschland kommen die Vögel nur in den Gebirgen vor. Periodisch sind im Winter Masseneinflüge von aus dem sibirischen Raum stammenden Tannenhähern zu beobachten."
+,"Bild":"images/tannenhaeher_kl.jpg"
+,"Ton":"audio/tannenhaeher_rufe.mp3"
+}
+,
+{
+"Name":"Tannenmeise (Parus ater)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/tannenmeise_kl.jpg"
+,"Ton":"audio/tannenmeise_gesang.mp3"
+}
+,
+{
+"Name":"Teichhuhn oder Teichralle (Gallinula chloropus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/teichralle_rufe.mp3"
+}
+,
+{
+"Name":"Teichrohrsänger (Acrocephalus scirpaceus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Teichrohrsänger ist ein fast sperlingsgroßer Bewohner der Röhrichtzone unserer Gewässer. Die Vögel bauen ein tiefnapfiges Nest, das sie an Schilfstängeln befestigen. Seinen Gesang trägt der etwa 12-13 cm große Vogel meist an der Spitze eines Schilfhalmes sitzend vor."
+,"Bild":"images/teichrohrsaenger_kl.jpg"
+,"Ton":"audio/teichrohrsaenger_gesang.mp3"
+}
+,
+{
+"Name":"Trauerschnäpper (Ficedula hypoleuca)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/trauerschnaepper14_kl.jpg"
+,"Ton":"audio/trauerschnaepper_gesang.mp3"
+}
+,
+{
+"Name":"Trauerseeschwalbe (Chlidonias niger)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/trauerseeschwalbe_Rufe.mp3"
+}
+,
+{
+"Name":"Trottellumme (Uria aalge)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/trottellumme_kl.jpg"
+,"Ton":"audio/trottellumme_laute.mp3"
+}
+,
+{
+"Name":"Tüpfelsumpfhuhn (Porzana porzana)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Tüpfelsumpfhühner oder auch Tüpfelrallen gehören bei uns zu den vom Aussterben bedrohten Brutvogelarten. Außerdem bekommt man sie wegen ihrer versteckten Lebensweise in ausgedehnten Schilfbeständen selten zu Gesicht. Eher kann man schon während der Paarungszeit den charakteristischen peitschenden Ruf vernehmen."
+,"Bild":"images/tuepfelsumpfhuhn_kl.jpg"
+,"Ton":"audio/tuepfelsumpfhuhn_revierrufe.mp3"
+}
+,
+{
+"Name":"Türkentaube (Streptopelia decaocto)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Türkentaube hat sich erst im letzten Jahrhundert vom Mittelmeerraum aus nach Mitteleuropa ausgebreitet. Jetzt ist sie oft in Dörfern und auch Städten zu sehen. Leicht ist sie an ihren dreisilbigen Ruf zu erkennen."
+,"Bild":"images/tuerkentaube_kl.jpg"
+,"Ton":"audio/tuerkentaube_rufe.mp3"
+}
+,
+{
+"Name":"Turmfalke (Falco tinnunculus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Turmfalke gehört zu den häufigsten Greifvögeln in Mitteleuropa. Das Männchen hat einen hellgrauen Kopf, wohingegen das Weibchen an Kopf und Rücken einheitlich rotbraunes Federkleid besitzt. Im Jagen nach Mäusen hat sich der für Falken charakteristische Rüttelflug durchgesetzt. Dabei kann der Vogel fast scheinbar bewegungslos in der Höhe, über freien Flächen mit wenig Bewuchs, 'stehend' auf Beute lauern, um diese dann im Sturzflug zu greifen. Der Turmfalke brütet in felsigen Gegenden in Spalten und Höhlen, nutzt aber auch in unseren Städten verlassene Nester, z.B. von Krähen, in hochgelegenen Nischen und Mauerlöchern in Türmen und hohen Gebäuden."
+,"Bild":"images/turmfalke_kl.jpg"
+,"Ton":"audio/turmfalke_rufreihen.mp3"
+}
+,
+{
+"Name":"Turteltaube (Streptopelia turtur)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Turteltaube ist die kleinste einheimische Taubenart. Sie bewohnt lichte, unterholzreiche Mischwälder, Feldgehölze, Hecken an Feldrändern und auch Parkanlagen. Den Namen verdank sie wohl ihrem Ruf, der nach �turr-turr� klingt."
+,"Bild":"images/turteltaube2_kl.jpg"
+,"Ton":"audio/turteltaube_balz.mp3"
+}
+,
+{
+"Name":"Uferschnepfe (Limosa limosa)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Das auffälligste Merkmal der Uferschnepfe ist ihr extrem langer Schnabel, mit dem sie im Schlamm nach Nahrung stochern kann. Die Art gehört bei uns zu den vom Aussterben bedrohten Brutvogelarten. Der Bestandsrückgang ist wohl in erster Linie auf den Rückgang des Lebensraumes, extensiv bewirtschaftete feuchte Weideflächen, zurückzuführen."
+,"Bild":"images/uferschnepfe_kl.jpg"
+,"Ton":"audio/uferschnepfe_balz.mp3"
+}
+,
+{
+"Name":"Uferschwalbe (Riparia riparia)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/uferschwalbe4_kl.jpg"
+,"Ton":"audio/uferschwalbe_flugrufe.mp3"
+}
+,
+{
+"Name":"Uhu (Bubo bubo)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Uhu ist unsere größte Eulenart und ist zugleich ein schönes Beispiel f�r praktischen Naturschutz. Noch vor 40 Jahren waren die Vögel unmittelbar vom Aussterben bedroht. Dank der Auswilderung gezüchteter Tiere und konsequenter Nestbewachung konnte sich der Bestand des Uhus in Deutschland wieder stabilisieren."
+,"Bild":"images/uhu_kl.jpg"
+,"Ton":"audio/uhu_rufe.mp3"
+}
+,
+{
+"Name":"Wacholderdrossel (Turdus pilaris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wacholderdrossel_kl.jpg"
+,"Ton":"audio/wacholderdrossel_gesang.mp3"
+}
+,
+{
+"Name":"Wachtel (Coturnix coturnix)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wachtel_kl.jpg"
+,"Ton":"audio/wachtel_rufe.mp3"
+}
+,
+{
+"Name":"Wachtelkönig (Crex crex)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Wachtelkönig oder auch Wiesenralle lebt im Gegensatz zu den meisten anderen Rallenarten, die Bewohner von Feuchtgebieten sind, auf trockenen Wiesen aller Art. Er gehört zu den 24 europäischen Vogelarten, die weltweit in ihrem Bestand bedroht sind. Mit seinen knarrenden Rufen zeigt der Wachtelkönig das von ihm besetzte Revier an."
+,"Bild":"images/wachtelkoenig3_kl.jpg"
+,"Ton":"audio/wachtelkoenig_rufe.mp3"
+}
+,
+{
+"Name":"Waldbaumläufer (Certhia familiaris)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/waldbaumlaeufer_gesang.mp3"
+}
+,
+{
+"Name":"Waldkauz (Strix aluco)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Waldkauz ist die häufigste einheimische Eulenart. Von ihm stammen auch die bekannten Käuzchenrufe, mit denen der Vogel sein Territorium anzeigt. Waldkäuze leben in Wäldern und in Parkanlagen. Das Nest wird in Höhlen jeglicher Art, zuweilen auch in alten Greifvögelhorsten errichtet."
+,"Bild":"images/waldkauz_kl.jpg"
+,"Ton":"audio/waldkauz_rufreihen.mp3"
+}
+,
+{
+"Name":"Waldlaubsänger (Phylloscopus sibilatrix)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/waldlaubsaenger_kl.jpg"
+,"Ton":"audio/waldlaubsaenger_gesang.mp3"
+}
+,
+{
+"Name":"Waldohreule (Asio otus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/waldohreule5_kl.jpg"
+,"Ton":"audio/waldohreule_gesang.mp3"
+}
+,
+{
+"Name":"Waldschnepfe (Scolopax rusticola)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/waldschnepfe_kl.jpg"
+,"Ton":"audio/waldschnepfe_flugrufe.mp3"
+}
+,
+{
+"Name":"Wanderfalke (Falco peregrinus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Wanderfalke ist die schnellste Vogelart. Er ernährt sich in erster Linie von Vögeln die er im Flug erbeutet. Im Sturzflug kann er Geschwindigkeiten von 270 � 350 km/h erreichen. Vor ca. 30 Jahren war die Art in Deutschland aufgrund des Pestizideinsatzes in der Landwirtschaft (DDT) unmittelbar vom Aussterben bedroht. Heute leben in Deutschland wieder mehr als 600 Brutpaare."
+,"Bild":"images/wanderfalke_kl.jpg"
+,"Ton":"audio/wanderfalke_balz.mp3"
+}
+,
+{
+"Name":"Wasseramsel (Cinclus cinclus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wasseramsel_kl.jpg"
+,"Ton":"audio/wasseramsel_gesang.mp3"
+}
+,
+{
+"Name":"Wasserralle (Rallus aquaticus)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Die Rufe der Wasserralle erinnern eher an das Quieken eines Schweins als an die Rufe eines Vogels. Die dämmerungs- und nachtaktiven Tiere bekommt man normalerweise nur selten zu Gesicht. Das Nest wird meist gut versteckt, in Röhricht- oder dichten Seggenbeständen angelegt."
+,"Bild":"images/wasserralle_kl.jpg"
+,"Ton":"audio/wasserralle_gesang.mp3"
+}
+,
+{
+"Name":"Weidenmeise (Parus montanus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"platzhalter_voegel.png"
+,"Ton":"audio/weidenmeise_gesang.mp3"
+}
+,
+{
+"Name":"Wendehals (Jynx torquilla)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Dieser unscheinbare, braune Vogel gehört zu den Spechten. Im Gegensatz zu seinen Verwandten wie Buntspecht und Grünspecht, zimmert er keine Höhle und trommelt auch nicht. In Mitteleuropa ist dieser Zugvogel vor allem in Altobst- und Parkanlagen sowie lichten Waldbeständen anzutreffen. Die Revieranzeige erfolgt mit seiner kickernden Stimme."
+,"Bild":"images/wendehals_kl.jpg"
+,"Ton":"audio/wendehals_rufreihen.mp3"
+}
+,
+{
+"Name":"Wespenbussard (Pernis apivorus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wespenbussard1_kl.jpg"
+,"Ton":"audio/wespenbussard_flugrufe.mp3"
+}
+,
+{
+"Name":"Wiedehopf (Upupa epops)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wiedehopf_kl.jpg"
+,"Ton":"audio/wiedehopf_rufe.mp3"
+}
+,
+{
+"Name":"Wiesenpieper (Anthus pratensis)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wiesenpieper_kl.jpg"
+,"Ton":"audio/wiesenpieper_gesang.mp3"
+}
+,
+{
+"Name":"Wintergoldhähnchen (Regulus regulus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/wintergoldhaehnchen_kl.jpg"
+,"Ton":"audio/wintergoldhaehnchen_gesang.mp3"
+}
+,
+{
+"Name":"Zaunkönig (Troglodytes troglodytes)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Neben den beiden Goldhähnchenarten ist der Zaunkönig unser drittkleinster Vogel. Ungeachtet seiner geringen Größe hat er einen sehr lauten Gesang, der bereits in den Wintermonaten zu vernehmen ist. Zaunkönige leben im Dickicht von Wäldern, Gärten und Parks, bevorzugt in Bachauen mit freigespültem Wurzelwerk und deckungsreichen Schling- und Kletterpflanzen."
+,"Bild":"images/zaunkoenig_kl.jpg"
+,"Ton":"audio/zaunkoenig_gesang.mp3"
+}
+,
+{
+"Name":"Ziegenmelker (Caprimulgus europaeus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/ziegenmelker_kl.jpg"
+,"Ton":"audio/ziegenmelker_schnurren.mp3"
+}
+,
+{
+"Name":"Weidenlaubsänger oder Zilpzalp (Phylloscopus collybita)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/zilpzalp_kl.jpg"
+,"Ton":"audio/zilpzalp_gesang.mp3"
+}
+,
+{
+"Name":"Zwergdommel (Ixobrychus minutus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/zwergdommel_kl.jpg"
+,"Ton":"audio/zwergdommel_rufreihe.mp3"
+}
+,
+{
+"Name":"Zwergschnäpper (Ficedula parva)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Der Zwergschnäpper ist ein typischer Bewohner dichter Laubwaldbestände. Auffällig ist seine rote Kehle. Durch seine weiße Schwanzzeichnung ist er aber sicher vom Rotkehlchen zu unterscheiden. Ihr Nest aus Moos errichten die Schnäpper meist in Baumhöhlen."
+,"Bild":"images/zwergschnaepper_kl.jpg"
+,"Ton":"audio/zwergschnaepper_gesang.mp3"
+}
+,
+{
+"Name":"Zwergschwan (Cygnus columbianus)"
+,"Gruppe":"voegel"
+,"Beschreibung":""
+,"Bild":"images/zwergschwan_kl.jpg"
+,"Ton":"audio/pfeifschwan_rufe.mp3"
+}
+,
+{
+"Name":"Zwergtaucher (Tachybaptus ruficollis)"
+,"Gruppe":"voegel"
+,"Beschreibung":"Dieser kleinste einheimische Taucher ist meist schwer zu entdecken. Seine Anwesenheit im Brutgebiet, meist kleinere Tümpel aber auch Schilfbereiche größerer Seen, verrät der nur drosselgroße Wasservogel meist erst durch seine Stimme. Beim Trillern rufen sowohl Männchen und Weibchen gleichzeitig."
+,"Bild":"images/zwergtaucher_kl.jpg"
+,"Ton":"audio/zwergtaucher_rufreihe.mp3"
+}
+ ]}
