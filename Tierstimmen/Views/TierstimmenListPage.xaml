@@ -62,13 +62,13 @@
                                        Source="{Binding  Bild, Converter={StaticResource ByteArrayToImage},ConverterParameter={x:Reference Name=lblName}}" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
                                        Aspect="AspectFit" >
-                                    <!-- 
+                                    
                                     <Image.GestureRecognizers>
                                     <TapGestureRecognizer x:Name="tapImage" NumberOfTapsRequired="1" 
                                              Tapped="TapImage_Tapped"
                                              CommandParameter="{Binding .}" />
                                     </Image.GestureRecognizers>
-                                    -->
+                                    <!-- -->
                                 </Image>
                             </StackLayout>
                             <StackLayout Grid.Row="1" Grid.Column="2"  Margin="2,0,0,0" Orientation="Vertical" >

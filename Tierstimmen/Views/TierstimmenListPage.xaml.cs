@@ -34,7 +34,7 @@ namespace Tierstimmen
         private async void TapImage_Tapped(object sender, EventArgs e)
         {
             Image img = (Image)sender;
-            // await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
+            await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
         }
         private async void SearchBar_OnTextChanged(object sender, TextChangedEventArgs e)
         {
@@ -88,8 +88,22 @@ namespace Tierstimmen
             base.OnAppearing();
 
             // Reset the 'resume' id, since we just want to re-start here
-            ((App)App.Current).ResumeAtTierstimmenId = -1;
-            listView.ItemsSource = await App.Database.GetItemsAsync();
+            // ((App)App.Current).ResumeAtTierstimmenId = -1;
+            var objSelected = listView.SelectedItem;
+            if (objSelected == null)
+            {
+                listView.ItemsSource = await App.Database.GetItemsAsync();
+            }
+            listView.SelectedItem = objSelected;
+          //  Task.Run( () =>
+          //  {
+          //      Task.Delay(1500).Wait();
+          //      Xamarin.Forms.Device.BeginInvokeOnMainThread(() =>
+          //      {
+          //          listView.ScrollTo(objSelected, ScrollToPosition.Center, true);
+          //      });
+          //  });
+            
         }
 
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
