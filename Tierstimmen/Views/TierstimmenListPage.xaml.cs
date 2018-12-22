@@ -2,7 +2,7 @@
 using PCLStorage.Exceptions;
 using Plugin.SimpleAudioPlayer;
 using System;
-using System.Diagnostics;
+
 using System.IO;
 using System.Threading.Tasks;
 using Xamarin.Forms;
@@ -16,45 +16,81 @@ namespace Tierstimmen
         INSEKTEN,
         AMPHIBIEN
     }
-	public partial class TierstimmenListPage : ContentPage
-	{
+    public partial class TierstimmenListPage : ContentPage
+    {
         private TSGRUPPE tsgruppe;
-        
+
         public TierstimmenListPage(TSGRUPPE tsgruppe)
-		{
+        {
             ByteArrayToImageSourceConverter.Reset();
             this.tsgruppe = tsgruppe;
             App.Database.szGruppe = tsgruppe.ToString().ToLower();
+            App.Database.bUseSelected = false;
 
-			InitializeComponent();
+            InitializeComponent();
 
             this.Title += " " + App.Database.szGruppe.Substring(0, 1).ToUpper() + App.Database.szGruppe.Substring(1).ToLower();
         }
         private async void TapImage_Tapped(object sender, EventArgs e)
         {
             Image img = (Image)sender;
-           // await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
+            // await Navigation.PushAsync(new TierstimmenItemPage( img.Source));
         }
         private async void SearchBar_OnTextChanged(object sender, TextChangedEventArgs e)
         {
             listView.BeginRefresh();
-
+            int iCount = 0;
             if (string.IsNullOrWhiteSpace(e.NewTextValue))
+            {
                 listView.ItemsSource = await App.Database.GetItemsAsync();
+                iCount = await App.Database.GetCountAsync("");
+            }
             else
+            {
                 listView.ItemsSource = await App.Database.GetItemsAsync(e.NewTextValue);
-
+                iCount = await App.Database.GetCountAsync(e.NewTextValue);
+            }
+            lblCount.Text = iCount.ToString() + " Einträge gefunden";
+            if (iCount > App.Database.iLimitResults)
+            {
+                lblCount.Text += ", nur " + App.Database.iLimitResults.ToString() + " werden angezeigt.";
+            }
             listView.EndRefresh();
         }
-        
+        private async void Search()
+        {
+            listView.BeginRefresh();
+            int iCount = 0;
+            if (string.IsNullOrWhiteSpace(sbSearch.Text))
+            {
+                listView.ItemsSource = await App.Database.GetItemsAsync();
+                iCount = await App.Database.GetCountAsync("");
+            }
+            else
+            {
+                listView.ItemsSource = await App.Database.GetItemsAsync(sbSearch.Text);
+                iCount = await App.Database.GetCountAsync(sbSearch.Text);
+            }
+            lblCount.Text = iCount.ToString() + " Einträge gefunden";
+            if (iCount > App.Database.iLimitResults)
+            {
+                lblCount.Text += ", nur " + App.Database.iLimitResults.ToString() + " werden angezeigt.";
+            }
+            listView.EndRefresh();
+        }
+        private void SwUseSelected_Toggled(object sender, ToggledEventArgs e)
+        {
+            App.Database.bUseSelected = ((Switch)sender).IsToggled;
+            Search();
+        }
         protected override async void OnAppearing()
-		{
-			base.OnAppearing();
+        {
+            base.OnAppearing();
 
-			// Reset the 'resume' id, since we just want to re-start here
-			((App)App.Current).ResumeAtTierstimmenId = -1;
-			listView.ItemsSource = await App.Database.GetItemsAsync();
-		}
+            // Reset the 'resume' id, since we just want to re-start here
+            ((App)App.Current).ResumeAtTierstimmenId = -1;
+            listView.ItemsSource = await App.Database.GetItemsAsync();
+        }
 
         private void ListView_ItemTapped(object sender, ItemTappedEventArgs e)
         {
@@ -62,18 +98,18 @@ namespace Tierstimmen
         }
 
         void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
-		{
+        {
             Console.WriteLine("OnListItemSelected");
             //((App)App.Current).ResumeAtTierstimmenId = (e.SelectedItem as TierstimmenItem).ID;
             //Debug.WriteLine("setting ResumeAtTierstimmenId = " + (e.SelectedItem as TierstimmenItem).ID);
             if (e.SelectedItem != null)
             {
-              // await Navigation.PushAsync(new TierstimmenItemPage
-              // {
-              //     BindingContext = e.SelectedItem as TierstimmenItem
-              // });
+                // await Navigation.PushAsync(new TierstimmenItemPage
+                // {
+                //     BindingContext = e.SelectedItem as TierstimmenItem
+                // });
             }
-		}
+        }
 
         private void BtnPlay_Clicked(object sender, EventArgs e)
         {
@@ -98,7 +134,7 @@ namespace Tierstimmen
             ISimpleAudioPlayer audioPlayer = CrossSimpleAudioPlayer.Current;
             audioPlayer.Stop();
             audioPlayer.Load(new MemoryStream(audioBytes));
-            
+
             audioPlayer.Play();
             // IFolder folder = FileSystem.Current.LocalStorage;
             // for (int i=0;i<iToggle;i++)
@@ -140,6 +176,22 @@ namespace Tierstimmen
             ISimpleAudioPlayer audioPlayer = CrossSimpleAudioPlayer.Current;
             audioPlayer.Stop();
 
+        }
+
+        private void SwSelected_Toggled(object sender, ToggledEventArgs e)
+        {
+            Switch swThis = (Switch)sender;
+
+            var listItem = swThis.BindingContext as TierstimmenItem;
+            listView.SelectedItem = listItem;
+
+            // get the ton of the current item
+            if (listView.SelectedItem != null)
+            {
+                var ts = listView.SelectedItem as TierstimmenItem;
+                ts.Selected = swThis.IsToggled;
+                App.Database.SaveItemAsync(ts);
+            }
         }
 
        

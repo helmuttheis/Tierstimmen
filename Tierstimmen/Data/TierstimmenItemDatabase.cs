@@ -7,10 +7,12 @@ namespace Tierstimmen
 {
 	public class TierstimmenItemDatabase
 	{
-		SQLiteAsyncConnection database;
-        public string szGruppe = "voegel";
-        public string szFilename;
-		public TierstimmenItemDatabase(string dbPath)
+		SQLiteAsyncConnection database { get; set; }
+        public string szGruppe { get; set; } = "voegel";
+        public string szFilename { get; set; }
+        public int iLimitResults { get; set; } = 25;
+        public Boolean bUseSelected { get; set; } = false;
+        public TierstimmenItemDatabase(string dbPath)
 		{
             szFilename = dbPath;
             database = new SQLiteAsyncConnection(dbPath);
@@ -47,23 +49,62 @@ namespace Tierstimmen
         }
         public Task<List<TierstimmenItem>> GetItemsAsync()
 		{
-            return database.QueryAsync<TierstimmenItem>("SELECT * FROM [TierstimmenItem] where Gruppe ='" + szGruppe + "' order by Name Limit 25");
+            string szSQL = "SELECT * FROM [TierstimmenItem] where Gruppe ='" + szGruppe + "'";
+               
+            if( bUseSelected)
+            {
+                szSQL += " and Selected = 1";
+            }
+            szSQL += " order by Name Limit " + iLimitResults.ToString();
+            return database.QueryAsync<TierstimmenItem>(szSQL);
         }
         public Task<List<TierstimmenItem>> GetItemsAsync(string filter)
         {
-            return database.QueryAsync<TierstimmenItem>("SELECT * FROM [TierstimmenItem] where Name like '%" + filter + "%' and Gruppe ='" + szGruppe + "' order by Name  Limit 25");
+            string szPattern = filter + "%";
+            if( filter.Length > 1)
+            {
+                szPattern = "%" + szPattern;
+            }
+            string szSQL = "SELECT * FROM [TierstimmenItem] where Name like '" + szPattern + "' and Gruppe ='" + szGruppe + "'";
+            if (bUseSelected)
+            {
+                szSQL += " and Selected = 1";
+            }
+            szSQL += " order by Name Limit " + iLimitResults.ToString();
+            return database.QueryAsync<TierstimmenItem>(szSQL);
+        }
+        public Task<int> GetCountAsync(string filter)
+        {
+            string szPattern = filter + "%";
+            if (filter.Length > 1)
+            {
+                szPattern = "%" + szPattern;
+            }
+            string szSQL = "SELECT Count(*) as iCount FROM [TierstimmenItem] where Name like '" + szPattern + "' and Gruppe ='" + szGruppe + "'";
+            if (bUseSelected)
+            {
+                szSQL += " and Selected = 1";
+            }
+            
+            return database.ExecuteScalarAsync<int>(szSQL);
         }
         public Task<List<TierstimmenGroup>> GetGroupsAsync()
         {
             return database.Table<TierstimmenGroup>().ToListAsync();
         }
 
-        public Task<List<TierstimmenItem>> GetItemsByGroupAsync()
+        public Task<List<GroupCnt>> GetCountByGroupAsync()
 		{
-			return database.QueryAsync<TierstimmenItem>("SELECT * FROM [TierstimmenItem] and Gruppe ='" + szGruppe + "' order by Name Limit 25");
+            string szSQL = "SELECT Gruppe as szGroup, Count(*) as iCount FROM [TierstimmenItem]  ";
+            if (bUseSelected)
+            {
+                szSQL += " and Selected = 1";
+            }
+            szSQL += " group by Gruppe";
+            return database.QueryAsync<GroupCnt>(szSQL);
 		}
-
-		public Task<TierstimmenItem> GetItemAsync(int id)
+        
+        public Task<TierstimmenItem> GetItemAsync(int id)
 		{
 			return database.Table<TierstimmenItem>().Where(i => i.ID == id).FirstOrDefaultAsync();
 		}
@@ -84,5 +125,10 @@ namespace Tierstimmen
 			return database.DeleteAsync(item);
 		}
 	}
+    public class GroupCnt
+    {
+        public string szGroup { get; set; }
+        public int iCount { get; set; }
+    }
 }
 

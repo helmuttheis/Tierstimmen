@@ -40,9 +40,38 @@ namespace Tierstimmen
             imgVoegel.GestureRecognizers.Add(tapGestureRecognizer);
             imgSaeuger.GestureRecognizers.Add(tapGestureRecognizer);
             imgInsekten.GestureRecognizers.Add(tapGestureRecognizer);
-
+            Count();
         }
-         
+        async void Count()
+        {
+            var gcList = await App.Database.GetCountByGroupAsync();
+            foreach(var kv in gcList)
+            {
+                try
+                {
+                    if (kv.szGroup.Equals(TSGRUPPE.VOEGEL.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblVoegelCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.AMPHIBIEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblAmphibienCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.SAEUGER.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblSaeugerCnt.Text = kv.iCount.ToString();
+                    }
+                    else if (kv.szGroup.Equals(TSGRUPPE.INSEKTEN.ToString(), StringComparison.InvariantCultureIgnoreCase))
+                    {
+                        lblInsektenCnt.Text = kv.iCount.ToString();
+                    }
+                }
+                catch (Exception)
+                {
+                    
+                }
+            }
+        }
         async void OnItemAdded(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new TierstimmenLoadPage

@@ -19,7 +19,12 @@
 	</ContentPage.ToolbarItems>
     -->
     <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand">
-        <SearchBar Placeholder="Suchen..." TextChanged="SearchBar_OnTextChanged"></SearchBar>
+        
+        <SearchBar x:Name="sbSearch" Placeholder="Suchen..." TextChanged="SearchBar_OnTextChanged"></SearchBar>
+        <StackLayout Orientation="Horizontal" VerticalOptions="FillAndExpand">
+            <Switch x:Name="swUseSelected" Toggled="SwUseSelected_Toggled"/>
+            <Label x:Name="lblCount" Text="..."/>
+        </StackLayout>
         <ListView x:Name="listView" Margin="20" ItemSelected="OnListItemSelected" HasUnevenRows="true">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -29,23 +34,30 @@
                             -->
                             <Grid>
                                 <Grid.RowDefinitions>
-                                    <RowDefinition Height="200"/>
-                                </Grid.RowDefinitions>
+                                    <RowDefinition Height="20"/>
+                                <RowDefinition Height="180"/>
+                            </Grid.RowDefinitions>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
                                 <ColumnDefinition Width="Auto"/>
                                 <ColumnDefinition Width="Auto"/>
                             </Grid.ColumnDefinitions>
-                            <StackLayout Grid.Column="0" Orientation="Vertical"  HorizontalOptions="FillAndExpand"
-                                         MinimumWidthRequest="200" MinimumHeightRequest="200" 
-                                         WidthRequest="200" HeightRequest="200" >
+                            <StackLayout Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"  Orientation="Vertical"  HorizontalOptions="FillAndExpand"
+                                         MinimumWidthRequest="200" MinimumHeightRequest="20" 
+                                         WidthRequest="200" HeightRequest="20" >
                                 <Label x:Name="lblName" Text="{Binding Name}" Font="Bold" />
+                                
+                            </StackLayout>
+                            <StackLayout Grid.Row="1" Grid.Column="0" Orientation="Vertical"  HorizontalOptions="FillAndExpand"
+                                         MinimumWidthRequest="200" MinimumHeightRequest="180" 
+                                         WidthRequest="200" HeightRequest="180" >
+                            
                                 <ScrollView Orientation="Vertical">
                                     <Label Text="{Binding Beschreibung}" />
                                 </ScrollView>
-                                
+
                             </StackLayout>
-                            <StackLayout Grid.Column="1" Orientation="Horizontal"  MinimumHeightRequest="200" MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200" >
+                            <StackLayout Grid.Row="1" Grid.Column="1" Orientation="Horizontal"  MinimumHeightRequest="200" MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200" >
                                 <Image x:Name="imgTier" 
                                        Source="{Binding  Bild, Converter={StaticResource ByteArrayToImage},ConverterParameter={x:Reference Name=lblName}}" 
                                        MinimumWidthRequest="200" WidthRequest="200" HeightRequest="200"  
@@ -59,48 +71,22 @@
                                     -->
                                 </Image>
                             </StackLayout>
-                            <StackLayout Grid.Column="2"  Margin="2,0,0,0" Orientation="Vertical" >
+                            <StackLayout Grid.Row="1" Grid.Column="2"  Margin="2,0,0,0" Orientation="Vertical" >
                                 <Grid HeightRequest="50" WidthRequest="50" HorizontalOptions="Center">
                                     <ImageButton Source="playsolid.png" HeightRequest="20" 
                                                  BackgroundColor="LightGray"
                                                  BorderColor="LightGray" BorderWidth="5"
                                                   x:Name="btnPlay" Clicked="BtnPlay_Clicked"/>
-
-                                        <!-- <Button Text="P" x:Name="btnPlay" Clicked="BtnPlay_Clicked"/>
-                                    <Button Text="&#xf04b;" HeightRequest="100" BackgroundColor="LightGray" TextColor="DarkGray" FontSize="36"
-                                            x:Name="btnPlay" Clicked="BtnPlay_Clicked">
-                                        <Button.FontFamily>
-                                            <OnPlatform x:TypeArguments="x:String" >
-                                                <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
-                                                <On Platform="iOS" Value="Font Awesome 5 Free" />
-                                                <On Platform="UWP" Value="Assets/fa-solid-900x.ttf#Font Awesome 5 Free" />
-                                            </OnPlatform>
-                                        </Button.FontFamily>
-                                    </Button>
-    -->
                                 </Grid>
                                 <Grid HeightRequest="50" WidthRequest="50" HorizontalOptions="Center">
-
                                     <ImageButton Source="stopsolid.png" HeightRequest="20" 
                                                  BorderColor="LightGray" BorderWidth="5" BackgroundColor="LightGray"
                                                   x:Name="btnStop"  Clicked="BtnStop_Clicked"/>
-                                    <!-- <Button Text="S" x:Name="btnStop"  Clicked="BtnStop_Clicked"/> 
-                                    <Button Text="&#xf04d;" HeightRequest="100" BackgroundColor="LightGray" TextColor="DarkGray" FontSize="36"
-                                            x:Name="btnStop"  Clicked="BtnStop_Clicked">
-                                        <Button.FontFamily>
-                                            <OnPlatform x:TypeArguments="x:String" >
-                                                <On Platform="Android" Value="fa-solid-900.ttf#Font Awesome 5 Free Solid" />
-                                                <On Platform="iOS" Value="Font Awesome 5 Free" />
-                                                <On Platform="UWP" Value="Assets/fa-solid-900.ttf#Font Awesome 5 Free" />
-                                            </OnPlatform>
-                                        </Button.FontFamily>
-                                    </Button>
-                                    -->
+                                </Grid>
+                                <Grid HeightRequest="50" WidthRequest="50" HorizontalOptions="Center">
+                                    <Switch x:Name="swSelected" IsToggled="{Binding Selected}" Toggled="SwSelected_Toggled"/>
                                 </Grid>
                                 
-                                
-
-                                <Switch IsToggled="{Binding Selected}"/>
                             </StackLayout>
                         </Grid>
                     </ViewCell>
